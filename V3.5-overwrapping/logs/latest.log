@@ -1,36 +1,139 @@
-[12:19:50] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[12:19:50] [ServerMain/INFO]: Found new data pack file/bukkit, loading it automatically
-[12:19:50] [ServerMain/INFO]: Found new data pack paper, loading it automatically
-[12:19:51] [ServerMain/INFO]: No existing world data, creating new world
-[12:19:51] [ServerMain/INFO]: Loaded 1175 recipes
-[12:19:52] [ServerMain/INFO]: Loaded 1276 advancements
-[12:19:54] [Server thread/INFO]: Starting minecraft server version 1.20.6
-[12:19:54] [Server thread/INFO]: Loading properties
-[12:19:54] [Server thread/INFO]: This server is running Paper version git-Paper-62 (MC: 1.20.6) (Implementing API version 1.20.6-R0.1-SNAPSHOT) (Git: cdb6ba8)
-[12:19:55] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[12:19:55] [Server thread/INFO]: Using 4 threads for Netty based IO
-[12:19:56] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 2 worker threads, and gen parallelism of 2 threads
-[12:19:56] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+[12:35:14] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[12:35:16] [ServerMain/INFO]: Loaded 1175 recipes
+[12:35:17] [ServerMain/INFO]: Loaded 1276 advancements
+[12:35:20] [Server thread/INFO]: Starting minecraft server version 1.20.6
+[12:35:20] [Server thread/INFO]: Loading properties
+[12:35:20] [Server thread/INFO]: This server is running Paper version git-Paper-62 (MC: 1.20.6) (Implementing API version 1.20.6-R0.1-SNAPSHOT) (Git: cdb6ba8)
+[12:35:21] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[12:35:21] [Server thread/INFO]: Using 4 threads for Netty based IO
+[12:35:22] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
     We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
     For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[12:19:56] [Server thread/INFO]: Default game type: SURVIVAL
-[12:19:56] [Server thread/INFO]: Generating keypair
-[12:19:56] [Server thread/INFO]: Starting Minecraft server on *:25565
-[12:19:56] [Server thread/INFO]: Using default channel type
-[12:19:56] [Server thread/INFO]: Paper: Using libdeflate (macOS ARM64 / Apple Silicon) compression from Velocity.
-[12:19:56] [Server thread/INFO]: Paper: Using native (macOS ARM64 / Apple Silicon) cipher from Velocity.
-[12:19:56] [Server thread/INFO]: Preparing level "world"
-[12:20:06] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[12:20:12] [Server thread/INFO]: Time elapsed: 6743 ms
-[12:20:12] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[12:20:15] [Server thread/INFO]: Time elapsed: 2258 ms
-[12:20:15] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[12:20:15] [Server thread/INFO]: Time elapsed: 543 ms
-[12:20:15] [Server thread/INFO]: Running delayed init tasks
-[12:20:15] [Server thread/INFO]: Done (21.385s)! For help, type "help"
-[12:20:15] [Server thread/INFO]: *************************************************************************************
-[12:20:15] [Server thread/INFO]: This is the first time you're starting this server.
-[12:20:15] [Server thread/INFO]: It's recommended you read our 'Getting Started' documentation for guidance.
-[12:20:15] [Server thread/INFO]: View this and more helpful information here: https://docs.papermc.io/paper/next-steps
-[12:20:15] [Server thread/INFO]: *************************************************************************************
-[12:20:15] [Server thread/INFO]: Timings Reset
+[12:35:22] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 2 worker threads, and gen parallelism of 2 threads
+[12:35:23] [Server thread/INFO]: Default game type: SURVIVAL
+[12:35:23] [Server thread/INFO]: Generating keypair
+[12:35:23] [Server thread/INFO]: Starting Minecraft server on *:25565
+[12:35:23] [Server thread/INFO]: Using default channel type
+[12:35:23] [Server thread/INFO]: Paper: Using libdeflate (macOS ARM64 / Apple Silicon) compression from Velocity.
+[12:35:23] [Server thread/INFO]: Paper: Using native (macOS ARM64 / Apple Silicon) cipher from Velocity.
+[12:35:23] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[12:35:23] [Server thread/INFO]: Preparing level "world"
+[12:35:24] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[12:35:46] [Server thread/INFO]: Time elapsed: 22494 ms
+[12:35:46] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[12:35:50] [Server thread/INFO]: Time elapsed: 4044 ms
+[12:35:50] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[12:35:51] [Server thread/INFO]: Time elapsed: 941 ms
+[12:35:51] [Server thread/INFO]: Running delayed init tasks
+[12:35:51] [Server thread/INFO]: Done (31.339s)! For help, type "help"
+[12:35:51] [Server thread/INFO]: Timings Reset
+[12:37:42] [User Authenticator #0/INFO]: UUID of player Sunakaze21 is 940a0fe0-62c7-4df3-a440-93d9b970f1d1
+[12:37:43] [Server thread/INFO]: Sunakaze21 joined the game
+[12:37:43] [Server thread/INFO]: Sunakaze21[/106.173.158.109:51326] logged in with entity id 31 at ([world]-1.5, 101.0, -7.5)
+[12:37:50] [Async Chat Thread - #0/INFO]: <Sunakaze21> 入れたなぁ
+[12:39:03] [User Authenticator #1/INFO]: UUID of player shigemiiii_ is 50e06b95-5310-4bd2-bb6f-5b34510607b2
+[12:39:05] [Server thread/INFO]: shigemiiii_ joined the game
+[12:39:05] [Server thread/INFO]: shigemiiii_[/219.100.37.240:51251] logged in with entity id 461 at ([world]-6.5, 112.0, 7.5)
+[12:41:05] [Server thread/INFO]: shigemiiii_ lost connection: Disconnected
+[12:41:05] [Server thread/INFO]: shigemiiii_ left the game
+[12:41:14] [Async Chat Thread - #3/INFO]: <Sunakaze21> \ DANCE TIME /
+[12:44:45] [User Authenticator #2/INFO]: UUID of player shigemiiii_ is 50e06b95-5310-4bd2-bb6f-5b34510607b2
+[12:44:45] [Server thread/INFO]: shigemiiii_ joined the game
+[12:44:45] [Server thread/INFO]: shigemiiii_[/192.168.0.20:61870] logged in with entity id 925 at ([world]-6.5, 112.0, 7.5)
+[12:45:04] [Async Chat Thread - #6/INFO]: <shigemiiii_> yapo-yapan
+[12:45:06] [Async Chat Thread - #6/INFO]: <Sunakaze21> お
+[12:45:10] [Async Chat Thread - #6/INFO]: <Sunakaze21> はいれた？
+[12:45:13] [Async Chat Thread - #6/INFO]: <shigemiiii_> iketa
+[12:45:14] [Async Chat Thread - #6/INFO]: <Sunakaze21> local IPで
+[12:45:16] [Async Chat Thread - #6/INFO]: <Sunakaze21> おおおお～
+[12:45:22] [Async Chat Thread - #5/INFO]: <Sunakaze21> 解決や
+[12:45:29] [Async Chat Thread - #5/INFO]: <Sunakaze21> localhost悪さしてるってか
+[12:45:34] [Async Chat Thread - #5/INFO]: <shigemiiii_> そうだな
+[12:45:36] [Async Chat Thread - #5/INFO]: <Sunakaze21> ならかさんLocal IP違うやん
+[12:45:39] [Async Chat Thread - #5/INFO]: <Sunakaze21> PC違うなら
+[12:45:44] [Async Chat Thread - #5/INFO]: <shigemiiii_> そうだね
+[12:45:51] [Async Chat Thread - #5/INFO]: <Sunakaze21> それ設ある
+[12:45:53] [Async Chat Thread - #5/INFO]: <Sunakaze21> 説
+[12:46:03] [Async Chat Thread - #6/INFO]: <shigemiiii_> それはあるね
+[12:46:08] [Async Chat Thread - #6/INFO]: <shigemiiii_> よす
+[12:46:13] [Async Chat Thread - #6/INFO]: <shigemiiii_> ロビー作成か
+[12:46:26] [Async Chat Thread - #5/INFO]: <Sunakaze21> 雰囲気良いロビーつくろ
+[12:46:35] [Async Chat Thread - #6/INFO]: <Sunakaze21> ジャングルの木の上
+[12:46:38] [Async Chat Thread - #6/INFO]: <Sunakaze21> つりーはうす
+[12:46:39] [Async Chat Thread - #6/INFO]: <Sunakaze21> 的なｗ
+[12:46:42] [Async Chat Thread - #6/INFO]: <shigemiiii_> あり
+[12:46:44] [Async Chat Thread - #6/INFO]: <Sunakaze21> お～～～
+[12:46:46] [Async Chat Thread - #6/INFO]: <Sunakaze21> やたｔぜ
+[12:46:48] [Async Chat Thread - #5/INFO]: <Sunakaze21> 通話しようよｗ
+[12:46:49] [Async Chat Thread - #5/INFO]: <Sunakaze21> てかｗ
+[12:46:59] [Async Chat Thread - #6/INFO]: <shigemiiii_> ええよ
+[12:47:15] [Async Chat Thread - #6/INFO]: <Sunakaze21> コンビニで待ってるわ
+[12:47:23] [Async Chat Thread - #6/INFO]: <shigemiiii_> おけ
+[12:50:58] [Server thread/INFO]: Made shigemiiii_ a server operator
+[12:51:05] [Server thread/INFO]: shigemiiii_ issued server command: /op Sunakaze21
+[12:51:05] [Server thread/INFO]: [shigemiiii_: Made Sunakaze21 a server operator]
+[12:51:16] [Server thread/INFO]: Sunakaze21 issued server command: /gamemode creative
+[12:51:16] [Server thread/INFO]: [Sunakaze21: Set own game mode to Creative Mode]
+[12:53:01] [Server thread/INFO]: shigemiiii_ issued server command: /gamemode creative
+[12:53:01] [Server thread/INFO]: [shigemiiii_: Set own game mode to Creative Mode]
+[12:55:44] [Server thread/INFO]: CONSOLE: Are you sure you wish to reload your server? Doing so may cause bugs and memory leaks. It is recommended to restart instead of using /reload. To confirm, please type /reload confirm
+[12:56:03] [Server thread/INFO]: Sunakaze21 issued server command: /reload confirm
+[12:56:03] [Server thread/INFO]: Sunakaze21: Please note that this command is not supported and may cause issues when using some plugins.
+[12:56:03] [Server thread/INFO]: Sunakaze21: If you encounter any issues please use the /stop command to restart your server.
+[12:56:03] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[12:56:03] [Server thread/INFO]: Using 4 threads for Netty based IO
+[12:56:04] [Server thread/INFO]: Loaded 1175 recipes
+[12:56:04] [Server thread/INFO]: Loaded 1276 advancements
+[12:56:05] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/multiverse-core-4.3.12.jar'...
+[12:56:07] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/multiverse-core-4.3.12.jar' in 1869ms.
+[12:56:08] [Server thread/INFO]: [Multiverse-Core] Loading server plugin Multiverse-Core v4.3.12
+[12:56:08] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[12:56:08] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.12
+[12:56:08] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.12" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
+[12:56:08] [Server thread/INFO]: [Multiverse-Core] §aWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
+[12:56:08] [Server thread/WARN]: [Multiverse-Core] Cannot load worlds.yml
+[12:56:08] [Server thread/INFO]: [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: NORMAL & seed: -3807880981135716626
+[12:56:08] [Server thread/INFO]: [Multiverse-Core] Loading World & Settings - 'world_nether' - Env: NETHER - Type: NORMAL & seed: -3807880981135716626
+[12:56:08] [Server thread/WARN]: [Multiverse-Core] Spawn location from world.dat file was unsafe. Adjusting...
+[12:56:08] [Server thread/WARN]: [Multiverse-Core] Original Location: X: 0 Y: 66 Z: 0 P: 0 Y: 0 
+[12:56:08] [Server thread/INFO]: [Multiverse-Core] New Spawn for 'world_nether' is located at: world_nether:2.50,66.00,2.50:0.00:0.00
+[12:56:08] [Server thread/INFO]: [Multiverse-Core] Loading World & Settings - 'world_the_end' - Env: THE_END - Type: NORMAL & seed: -3807880981135716626
+[12:56:08] [Server thread/INFO]: [Multiverse-Core] 3 - World(s) loaded.
+[12:56:08] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
+[12:56:08] [Server thread/INFO]: [Multiverse-Core] Version 4.3.12 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
+[12:56:08] [Server thread/INFO]: Sunakaze21: Reload complete.
+[12:56:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5203ms or 104 ticks behind
+[12:56:08] [Server thread/INFO]: Timings Reset
+[12:56:57] [Server thread/INFO]: shigemiiii_ issued server command: /reload
+[12:56:57] [Server thread/INFO]: shigemiiii_: Are you sure you wish to reload your server? Doing so may cause bugs and memory leaks. It is recommended to restart instead of using /reload. To confirm, please type /reload confirm
+[12:57:07] [Server thread/INFO]: shigemiiii_ issued server command: /reload
+[12:57:07] [Server thread/INFO]: shigemiiii_: Are you sure you wish to reload your server? Doing so may cause bugs and memory leaks. It is recommended to restart instead of using /reload. To confirm, please type /reload confirm
+[12:57:25] [Server thread/INFO]: CONSOLE: Usage: /reload [permissions|commands|confirm]
+[12:57:47] [Server thread/INFO]: CONSOLE: Please note that this command is not supported and may cause issues when using some plugins.
+[12:57:47] [Server thread/INFO]: CONSOLE: If you encounter any issues please use the /stop command to restart your server.
+[12:57:47] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[12:57:47] [Server thread/INFO]: Using 4 threads for Netty based IO
+[12:57:47] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.3.12
+[12:57:47] [Server thread/INFO]: Loaded 1175 recipes
+[12:57:47] [Server thread/INFO]: Loaded 1276 advancements
+[12:57:47] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/multiverse-portals-4.2.3.jar'...
+[12:57:48] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/multiverse-portals-4.2.3.jar' in 606ms.
+[12:57:48] [Server thread/INFO]: [Multiverse-Core] Loading server plugin Multiverse-Core v4.3.12
+[12:57:48] [Server thread/INFO]: [Multiverse-Portals] Loading server plugin Multiverse-Portals v4.2.3
+[12:57:48] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[12:57:48] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.12
+[12:57:48] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.12" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
+[12:57:48] [Server thread/INFO]: [Multiverse-Core] §aWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
+[12:57:49] [Server thread/INFO]: [Multiverse-Core] 3 - World(s) loaded.
+[12:57:49] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
+[12:57:49] [Server thread/INFO]: [Multiverse-Core] Version 4.3.12 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
+[12:57:49] [Server thread/INFO]: [Multiverse-Portals] Enabling Multiverse-Portals v4.2.3
+[12:57:49] [Server thread/INFO]: [Multiverse-Portals] 0 - Portals(s) loaded
+[12:57:49] [Server thread/INFO]: [Multiverse-Portals 4.2.3]  Enabled - By Rigby and fernferret
+[12:57:49] [Server thread/INFO]: CONSOLE: Reload complete.
+[12:57:49] [Server thread/INFO]: Timings Reset
+[12:57:49] [Server thread/WARN]: Sunakaze21 moved too quickly! -9.5423074735025,-4.774915591854381,8.15949050603987
+[12:57:55] [Server thread/INFO]: Sunakaze21 issued server command: /gamemode creative
+[12:57:55] [Server thread/INFO]: [Sunakaze21: Set own game mode to Creative Mode]
+[12:57:59] [Server thread/INFO]: shigemiiii_ issued server command: /gamemode spectator
+[12:57:59] [Server thread/INFO]: [shigemiiii_: Set own game mode to Spectator Mode]
