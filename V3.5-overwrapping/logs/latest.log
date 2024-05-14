@@ -331,3 +331,97 @@ CloseCode(4004 / The account token sent with your identify payload is incorrect.
 [21:49:47] [DiscordSRV - Shutdown/WARN]: [DiscordSRV] JDA took too long to shut down, skipping
 [21:49:47] [DiscordSRV - Shutdown/INFO]: [DiscordSRV] 5012ミリ秒でシャットダウンしました
 [21:49:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4974ms or 99 ticks behind
+[22:22:41] [Server thread/INFO]: CONSOLE: Are you sure you wish to reload your server? Doing so may cause bugs and memory leaks. It is recommended to restart instead of using /reload. To confirm, please type /reload confirm
+[22:22:50] [Server thread/INFO]: CONSOLE: Please note that this command is not supported and may cause issues when using some plugins.
+[22:22:50] [Server thread/INFO]: CONSOLE: If you encounter any issues please use the /stop command to restart your server.
+[22:22:50] [Server thread/INFO]: Using 4 threads for Netty based IO
+[22:22:50] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[22:22:50] [Server thread/INFO]: [Multiverse-Portals] Disabling Multiverse-Portals v4.2.3
+[22:22:50] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.3.1+6763-2e55f4f
+[22:22:50] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[22:22:50] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.128
+[22:22:50] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[22:22:50] [Server thread/INFO]: [LuckPerms] Closing storage...
+[22:22:50] [Server thread/INFO]: [LuckPerms] Goodbye!
+[22:22:50] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.3.12
+[22:22:50] [Server thread/INFO]: Loaded 1175 recipes
+[22:22:50] [Server thread/INFO]: Loaded 1276 advancements
+[22:22:51] [Server thread/INFO]: [Multiverse-Core] Loading server plugin Multiverse-Core v4.3.12
+[22:22:51] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.128
+[22:22:51] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.1+6763-2e55f4f
+[22:22:52] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@793b444a]
+[22:22:52] [Server thread/INFO]: [DiscordSRV] Loading server plugin DiscordSRV v1.27.0
+[22:22:52] [Server thread/INFO]: [Multiverse-Portals] Loading server plugin Multiverse-Portals v4.2.3
+[22:22:52] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[22:22:52] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.128
+[22:22:52] [Server thread/INFO]:         __    
+[22:22:52] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.128
+[22:22:52] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[22:22:52] [Server thread/INFO]: 
+[22:22:52] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[22:22:52] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[22:22:52] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[22:22:52] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[22:22:52] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 502ms)
+[22:22:52] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.1+6763-2e55f4f
+[22:22:52] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[22:22:53] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[22:22:53] [Server thread/WARN]: [WorldEdit] Server reload detected. This may cause various issues with WorldEdit and dependent plugins.
+[22:22:53] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_20_R4.PaperweightAdapter as the Bukkit adapter
+[22:22:54] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.12
+[22:22:54] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.12" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
+[22:22:54] [Server thread/INFO]: [Multiverse-Core] §aWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
+[22:22:54] [Server thread/INFO]: [Multiverse-Core] 4 - World(s) loaded.
+[22:22:54] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
+[22:22:54] [Server thread/INFO]: [Multiverse-Core] Version 4.3.12 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
+[22:22:54] [Server thread/INFO]: [DiscordSRV] Enabling DiscordSRV v1.27.0
+[22:22:54] [Server thread/INFO]: [Multiverse-Portals] Enabling Multiverse-Portals v4.2.3
+[22:22:54] [Server thread/INFO]: [Multiverse-Portals] 0 - Portals(s) loaded
+[22:22:54] [Server thread/INFO]: [Multiverse-Portals] Found WorldEdit. Using it for selections.
+[22:22:54] [Server thread/INFO]: [Multiverse-Portals 4.2.3]  Enabled - By Rigby and fernferret
+[22:22:54] [Server thread/INFO]: CONSOLE: Reload complete.
+[22:22:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4580ms or 91 ticks behind
+[22:22:54] [Server thread/INFO]: Timings Reset
+[22:22:56] [pool-51-thread-1/INFO]: [DiscordSRV] DiscordSRV is up-to-date. (6405e850eea61a4b9bf4f0d0cbb80fe20b3cfb90)
+[22:22:57] [DiscordSRV - Initialization/INFO]: [DiscordSRV] [JDA] Login Successful!
+[22:22:57] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Connected to WebSocket
+[22:22:58] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Finished Loading!
+[22:22:58] [DiscordSRV - Initialization/INFO]: [DiscordSRV] 見つかったサーバー G:まふぃんうまうま(1030670941363122286)
+[22:22:58] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:rule(1030671352719491142)
+[22:22:58] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:op-ch(1238685323429548122)
+[22:22:58] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:server-log(1238687629852151891)
+[22:22:58] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:サーバー参加同意書📃(1238685578317529190)
+[22:22:58] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:test-channel(1032287685198483478)
+[22:22:58] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:welcom(1030670941811908639)
+[22:22:58] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:【必見】鯖について(1208671061206507541)
+[22:22:58] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:カスタムロール(1208670963214848051)
+[22:22:58] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:最新情報(1212502783006212157)
+[22:22:58] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:お知らせ(1208661437204135957)
+[22:22:58] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:自慢・みてほしい(1030671149782290472)
+[22:22:58] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:【旧募集】招集(1030671128265494558)
+[22:22:58] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:【旧雑談】交流場(1030671104487993484)
+[22:22:58] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:【鯖メン限】作品配布(1208662514431172668)
+[22:22:58] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:no-mic(1033394501097627708)
+[22:22:58] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:戒め(1198667006392684596)
+[22:22:58] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:ぷれみあ～～(1217113459234181211)
+[22:22:58] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:5-digit-faceoff(1231623690840445058)
+[22:22:58] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:ネタクリップ-健全(1218632623291629588)
+[22:22:58] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:ネタクリップ-注意(1218632663817261066)
+[22:22:58] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:ぼっとつかいかた(1208668504979673118)
+[22:22:58] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:bot(1032289674204557362)
+[22:22:58] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:おしらせ【削除予定】(1040137950345834546)
+[22:22:58] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:map-pool(1041399685904076881)
+[22:22:58] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:旧roll(1030672989538230323)
+[22:22:58] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:aho(1186989099496771594)
+[22:22:58] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:bot-便利機能(1032995429408849941)
+[22:22:58] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:┏-vc-channel-update(1124228019788193852)
+[22:22:58] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:muu-server-log(1135783481037836340)
+[22:22:58] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:admin-section(1125458644914425917)
+[22:22:58] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:🌸server-announce(1087202120022892544)
+[22:22:58] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:🧁version-log(1087202182195060787)
+[22:22:58] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:🐹chat(1087202723763593267)
+[22:22:58] [DiscordSRV - Initialization/INFO]: [DiscordSRV] コンソールフォワーディングがチャンネルに割り当てられました TC:server-log(1238687629852151891)
+[22:22:58] [DiscordSRV - Initialization/INFO]: [DiscordSRV] LuckPerms の接続を有効にしました
+[22:22:58] [DiscordSRV - JDA Callback 0/INFO]: [DiscordSRV] Cleared all pre-existing slash commands in 1/1 guilds (0 cancelled)
+[22:23:06] [Server thread/INFO]: shigemiiii_ issued server command: /gamemode spectator
+[22:23:06] [Server thread/INFO]: [shigemiiii_: Set own game mode to Spectator Mode]
