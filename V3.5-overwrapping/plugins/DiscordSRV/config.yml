@@ -6,7 +6,11 @@ ConfigVersion: 1.27.0
 
 # Bot token: Bot のトークンをここに設定してください。設定方法は、プラグインの導入手順を参照してください。
 # このオプションを変更した後、サーバーを再起動する必要があります
+<<<<<<< HEAD
+BotToken: "********"
+=======
 BotToken: "MTEzNTc4MDA5MzM2OTc5NDY2Mw.GgdQC5.pwZI6Cawe7x_iAK_mTTtehwARBXmbLA_HPyOag"
+>>>>>>> parent of cd88206 (V3.1.14)
 
 # ゲームからDiscordへのチャンネルリンク
 # 構文は Channels: {"Minecraft内のチャンネル名": "Discord内のチャンネルID（数値）", "Minecraft内の別のチャンネル名": "Discord内の別のチャンネルID（数値）"}

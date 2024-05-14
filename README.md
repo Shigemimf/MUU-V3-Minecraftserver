@@ -5,4 +5,5 @@
 
 
 ## 問題のリストアップ→ [Issues](https://github.com/Shigemimf/MUU-V3-Minecraftserver/issues)
-### サーバーに参加する際にConnection refused: getsockoptと表示される //調査中
+### サーバーに参加する際にConnection refused: getsockoptと表示される //解決済み　
+　　　　L [archive](https://github.com/Shigemimf/MUU-V3-Minecraftserver/issues/1)

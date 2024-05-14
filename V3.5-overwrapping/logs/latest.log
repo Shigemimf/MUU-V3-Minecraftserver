@@ -312,3 +312,22 @@
 [21:42:01] [DiscordSRV - Initialization/INFO]: [DiscordSRV] コンソールフォワーディングがチャンネルに割り当てられました TC:server-log(1238687629852151891)
 [21:42:01] [DiscordSRV - Initialization/INFO]: [DiscordSRV] LuckPerms の接続を有効にしました
 [21:42:01] [DiscordSRV - JDA Callback 0/INFO]: [DiscordSRV] Cleared all pre-existing slash commands in 1/1 guilds (0 cancelled)
+[21:43:55] [User Authenticator #1/INFO]: UUID of player shigemiiii_ is 50e06b95-5310-4bd2-bb6f-5b34510607b2
+[21:43:56] [Server thread/INFO]: shigemiiii_ joined the game
+[21:43:56] [Server thread/INFO]: shigemiiii_[/192.168.0.1:51793] logged in with entity id 6551 at ([Lobby]9880.024482090515, 100.0, 9724.516083678413)
+[21:44:23] [Server thread/INFO]: shigemiiii_ issued server command: /gamemode spectator
+[21:44:23] [Server thread/INFO]: [shigemiiii_: Set own game mode to Spectator Mode]
+[21:49:40] [JDA MainWS-ReadThread/WARN]: [DiscordSRV] [JDA] Got disconnected from WebSocket (Code 1000). Appending to reconnect queue
+[21:49:42] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Connected to WebSocket
+[21:49:42] [JDA MainWS-WriteThread/ERROR]: [DiscordSRV] [JDA] WebSocket connection was closed and cannot be recovered due to identification issues
+CloseCode(4004 / The account token sent with your identify payload is incorrect.)
+[21:49:42] [JDA MainWS-WriteThread/ERROR]: [DiscordSRV] ===================================================
+[21:49:42] [JDA MainWS-WriteThread/ERROR]: [DiscordSRV]  
+[21:49:42] [JDA MainWS-WriteThread/ERROR]: [DiscordSRV]  DiscordSRV was disconnected from Discord because:
+[21:49:42] [JDA MainWS-WriteThread/ERROR]: [DiscordSRV]  The bot token is invalid
+[21:49:42] [JDA MainWS-WriteThread/ERROR]: [DiscordSRV]  
+[21:49:42] [JDA MainWS-WriteThread/ERROR]: [DiscordSRV] ===================================================
+[21:49:42] [Server thread/INFO]: [DiscordSRV] Disabling DiscordSRV v1.27.0
+[21:49:47] [DiscordSRV - Shutdown/WARN]: [DiscordSRV] JDA took too long to shut down, skipping
+[21:49:47] [DiscordSRV - Shutdown/INFO]: [DiscordSRV] 5012ミリ秒でシャットダウンしました
+[21:49:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4974ms or 99 ticks behind
