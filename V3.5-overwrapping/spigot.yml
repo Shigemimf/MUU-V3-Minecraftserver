@@ -170,6 +170,8 @@ world-settings:
     enable-zombie-pigmen-portal-spawns: true
     dragon-death-sound-radius: 0
     verbose: false
+  worldeditregentempworld:
+    verbose: false
 players:
   disable-saving: false
 config-version: 12
