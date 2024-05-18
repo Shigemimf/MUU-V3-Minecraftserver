@@ -1,0 +1,6 @@
+# This is a world configuration file for Paper.
+# This file may start empty but can be filled with settings to override ones in the config/paper-world-defaults.yml
+# 
+# World: MUU_V3survivalserver (minecraft:muu_v3survivalserver)
+
+_version: 31

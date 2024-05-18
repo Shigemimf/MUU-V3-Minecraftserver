@@ -1,427 +1,515 @@
-[14:36:03] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[14:36:03] [ServerMain/INFO]: Loaded 1175 recipes
-[14:36:04] [ServerMain/INFO]: Loaded 1276 advancements
-[14:36:05] [Server thread/INFO]: Starting minecraft server version 1.20.6
-[14:36:05] [Server thread/INFO]: Loading properties
-[14:36:05] [Server thread/INFO]: This server is running Paper version git-Paper-62 (MC: 1.20.6) (Implementing API version 1.20.6-R0.1-SNAPSHOT) (Git: cdb6ba8)
-[14:36:06] [Server thread/INFO]: Using 4 threads for Netty based IO
-[14:36:06] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[14:36:06] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+[12:11:53] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[12:11:54] [ServerMain/INFO]: Loaded 1175 recipes
+[12:11:54] [ServerMain/INFO]: Loaded 1276 advancements
+[12:11:56] [Server thread/INFO]: Starting minecraft server version 1.20.6
+[12:11:56] [Server thread/INFO]: Loading properties
+[12:11:56] [Server thread/INFO]: This server is running Paper version git-Paper-62 (MC: 1.20.6) (Implementing API version 1.20.6-R0.1-SNAPSHOT) (Git: cdb6ba8)
+[12:11:57] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[12:11:57] [Server thread/INFO]: Using 4 threads for Netty based IO
+[12:11:58] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
     We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
     For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[14:36:06] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 2 worker threads, and gen parallelism of 2 threads
-[14:36:07] [Server thread/INFO]: Default game type: SURVIVAL
-[14:36:07] [Server thread/INFO]: Generating keypair
-[14:36:07] [Server thread/INFO]: Starting Minecraft server on *:24775
-[14:36:07] [Server thread/INFO]: Using default channel type
-[14:36:07] [Server thread/INFO]: Paper: Using libdeflate (macOS ARM64 / Apple Silicon) compression from Velocity.
-[14:36:07] [Server thread/INFO]: Paper: Using native (macOS ARM64 / Apple Silicon) cipher from Velocity.
-[14:36:08] [Server thread/INFO]: [Multiverse-Core] Loading server plugin Multiverse-Core v4.3.12
-[14:36:08] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.128
-[14:36:08] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.1+6763-2e55f4f
-[14:36:09] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@39a55a3e]
-[14:36:09] [Server thread/INFO]: [DiscordSRV] Loading server plugin DiscordSRV v1.27.0
-[14:36:09] [Server thread/INFO]: [Multiverse-Portals] Loading server plugin Multiverse-Portals v4.2.3
-[14:36:09] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[14:36:09] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.128
-[14:36:09] [Server thread/INFO]:         __    
-[14:36:09] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.128
-[14:36:09] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[14:36:09] [Server thread/INFO]: 
-[14:36:09] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[14:36:09] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[14:36:09] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[14:36:09] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[14:36:09] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 579ms)
-[14:36:09] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.1+6763-2e55f4f
-[14:36:09] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[14:36:09] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[14:36:10] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_20_R4.PaperweightAdapter as the Bukkit adapter
-[14:36:10] [Server thread/INFO]: Preparing level "world"
-[14:36:11] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[14:36:12] [Server thread/INFO]: Time elapsed: 646 ms
-[14:36:12] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[14:36:12] [Server thread/INFO]: Time elapsed: 86 ms
-[14:36:12] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[14:36:12] [Server thread/INFO]: Time elapsed: 99 ms
-[14:36:12] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.12
-[14:36:12] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.12" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
-[14:36:12] [Server thread/INFO]: [Multiverse-Core] §aWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
-[14:36:12] [Server thread/INFO]: Preparing start region for dimension minecraft:lobby
-[14:36:12] [Server thread/INFO]: Time elapsed: 101 ms
-[14:36:12] [Server thread/INFO]: [Multiverse-Core] 4 - World(s) loaded.
-[14:36:12] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
-[14:36:12] [Server thread/INFO]: [Multiverse-Core] Version 4.3.12 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
-[14:36:12] [Server thread/INFO]: [DiscordSRV] Enabling DiscordSRV v1.27.0
-[14:36:12] [Server thread/INFO]: [Multiverse-Portals] Enabling Multiverse-Portals v4.2.3
-[14:36:12] [Server thread/INFO]: [Multiverse-Portals] 0 - Portals(s) loaded
-[14:36:12] [Server thread/INFO]: [Multiverse-Portals] Found WorldEdit. Using it for selections.
-[14:36:12] [Server thread/INFO]: [Multiverse-Portals 4.2.3]  Enabled - By Rigby and fernferret
-[14:36:12] [Server thread/INFO]: Running delayed init tasks
-[14:36:12] [Server thread/INFO]: Done (7.312s)! For help, type "help"
-[14:36:12] [Server thread/INFO]: Timings Reset
-[14:36:14] [pool-24-thread-1/INFO]: [DiscordSRV] DiscordSRV is up-to-date. (6405e850eea61a4b9bf4f0d0cbb80fe20b3cfb90)
-[14:36:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] [JDA] Login Successful!
-[14:36:15] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Connected to WebSocket
-[14:36:15] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Finished Loading!
-[14:36:16] [DiscordSRV - Initialization/INFO]: [DiscordSRV] 見つかったサーバー G:まふぃんうまうま(1030670941363122286)
-[14:36:16] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:rule(1030671352719491142)
-[14:36:16] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:op-ch(1238685323429548122)
-[14:36:16] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:server-log(1238687629852151891)
-[14:36:16] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:サーバー参加同意書📃(1238685578317529190)
-[14:36:16] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:test-channel(1032287685198483478)
-[14:36:16] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:welcom(1030670941811908639)
-[14:36:16] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:【必見】鯖について(1208671061206507541)
-[14:36:16] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:カスタムロール(1208670963214848051)
-[14:36:16] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:最新情報(1212502783006212157)
-[14:36:16] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:お知らせ(1208661437204135957)
-[14:36:16] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:自慢・みてほしい(1030671149782290472)
-[14:36:16] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:【旧募集】招集(1030671128265494558)
-[14:36:16] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:【旧雑談】交流場(1030671104487993484)
-[14:36:16] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:【鯖メン限】作品配布(1208662514431172668)
-[14:36:16] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:no-mic(1033394501097627708)
-[14:36:16] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:戒め(1198667006392684596)
-[14:36:16] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:ぷれみあ～～(1217113459234181211)
-[14:36:16] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:5-digit-faceoff(1231623690840445058)
-[14:36:16] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:ネタクリップ-健全(1218632623291629588)
-[14:36:16] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:ネタクリップ-注意(1218632663817261066)
-[14:36:16] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:ぼっとつかいかた(1208668504979673118)
-[14:36:16] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:bot(1032289674204557362)
-[14:36:16] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:おしらせ【削除予定】(1040137950345834546)
-[14:36:16] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:map-pool(1041399685904076881)
-[14:36:16] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:旧roll(1030672989538230323)
-[14:36:16] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:aho(1186989099496771594)
-[14:36:16] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:bot-便利機能(1032995429408849941)
-[14:36:16] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:┏-vc-channel-update(1124228019788193852)
-[14:36:16] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:muu-server-log(1135783481037836340)
-[14:36:16] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:admin-section(1125458644914425917)
-[14:36:16] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:🌸server-announce(1087202120022892544)
-[14:36:16] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:🧁version-log(1087202182195060787)
-[14:36:16] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:🐹chat(1087202723763593267)
-[14:36:16] [DiscordSRV - Initialization/INFO]: [DiscordSRV] コンソールフォワーディングがチャンネルに割り当てられました TC:server-log(1238687629852151891)
-[14:36:16] [DiscordSRV - Initialization/ERROR]: [STDERR] [com.mysql.jdbc.Driver] Loading class `com.mysql.jdbc.Driver'. This is deprecated. The new driver class is `com.mysql.cj.jdbc.Driver'. The driver is automatically registered via the SPI and manual loading of the driver class is generally unnecessary.
-[14:36:16] [DiscordSRV - Initialization/INFO]: [DiscordSRV] LuckPerms の接続を有効にしました
-[14:36:16] [DiscordSRV - JDA Callback 0/INFO]: [DiscordSRV] Cleared all pre-existing slash commands in 1/1 guilds (0 cancelled)
-[14:40:02] [User Authenticator #0/INFO]: UUID of player shigemiiii_ is 50e06b95-5310-4bd2-bb6f-5b34510607b2
-[14:40:03] [Server thread/INFO]: shigemiiii_ joined the game
-[14:40:03] [Server thread/INFO]: shigemiiii_[/192.168.0.1:64325] logged in with entity id 76 at ([Lobby]9839.567427712835, 105.0, 9727.412923769722)
-[14:40:28] [User Authenticator #0/INFO]: UUID of player Sunakaze_q is 625ee5ec-bc9d-4a51-b733-74c916aa16e7
-[14:40:29] [Server thread/INFO]: Sunakaze_q joined the game
-[14:40:29] [Server thread/INFO]: Sunakaze_q[/122.213.60.104:62861] logged in with entity id 403 at ([world]-4.5, 110.0, 7.5)
-[14:40:37] [Server thread/INFO]: shigemiiii_ issued server command: /gamemode spectator
-[14:40:37] [Server thread/INFO]: [shigemiiii_: Set own game mode to Spectator Mode]
-[14:40:41] [Server thread/INFO]: shigemiiii_ issued server command: /op Sunakaze_q
-[14:40:41] [Server thread/INFO]: [shigemiiii_: Made Sunakaze_q a server operator]
-[14:40:56] [Server thread/INFO]: Sunakaze_q issued server command: /tp @p shigemiiii_
-[14:40:56] [Server thread/INFO]: [Sunakaze_q: Teleported Sunakaze_q to shigemiiii_]
-[14:41:01] [Server thread/INFO]: Sunakaze_q issued server command: /gamemode creative
-[14:41:01] [Server thread/INFO]: [Sunakaze_q: Set own game mode to Creative Mode]
-[14:41:27] [Server thread/INFO]: Sunakaze_q issued server command: /we wand
-[14:41:32] [Server thread/INFO]: Sunakaze_q issued server command: //wand
-[14:41:59] [Server thread/INFO]: Sunakaze_q issued server command: //pos2
-[14:42:03] [Server thread/INFO]: Sunakaze_q issued server command: //set 0
-[14:42:09] [Server thread/INFO]: Sunakaze_q issued server command: //undo
-[14:42:21] [Server thread/INFO]: Sunakaze_q issued server command: //pos2
-[14:42:24] [Server thread/INFO]: Sunakaze_q issued server command: //set 0
-[14:42:56] [Server thread/INFO]: shigemiiii_ issued server command: /gamemode creative
-[14:42:56] [Server thread/INFO]: [shigemiiii_: Set own game mode to Creative Mode]
-[14:44:03] [Server thread/INFO]: Sunakaze_q issued server command: //copy
-[14:44:12] [Server thread/INFO]: Sunakaze_q issued server command: //paste]
-[14:44:14] [Server thread/INFO]: Sunakaze_q issued server command: //paste
-[14:44:59] [Async Chat Thread - #2/INFO]: <Sunakaze_q> hito kita
-[14:45:13] [Async Chat Thread - #2/INFO]: <shigemiiii_> なんとなく察してた
-[14:50:12] [Server thread/INFO]: Sunakaze_q issued server command: //paste
-[14:50:16] [Server thread/INFO]: Sunakaze_q issued server command: //undo
-[14:50:18] [Server thread/INFO]: Sunakaze_q issued server command: //undo
-[14:50:25] [Server thread/INFO]: Sunakaze_q issued server command: //redo
-[14:50:28] [Server thread/INFO]: Sunakaze_q issued server command: //paste
-[14:50:34] [Server thread/INFO]: Sunakaze_q issued server command: //paste
-[14:50:40] [Server thread/INFO]: Sunakaze_q issued server command: //paste
-[14:51:00] [Server thread/INFO]: Sunakaze_q issued server command: /time set 0
-[14:51:00] [Server thread/INFO]: [Sunakaze_q: Set the time to 0]
-[14:52:14] [Server thread/INFO]: Sunakaze_q issued server command: //undo
-[14:53:16] [Server thread/INFO]: Sunakaze_q issued server command: //undo
-[14:53:17] [Server thread/INFO]: Sunakaze_q issued server command: //undo
-[14:53:18] [Server thread/INFO]: Sunakaze_q issued server command: //undo
-[14:53:27] [Server thread/INFO]: Sunakaze_q issued server command: //paste
-[14:53:31] [Server thread/INFO]: Sunakaze_q issued server command: //undo
-[14:53:34] [Server thread/INFO]: Sunakaze_q issued server command: //paste
-[14:53:36] [Server thread/INFO]: Sunakaze_q issued server command: //paste
-[14:53:38] [Server thread/INFO]: Sunakaze_q issued server command: //undo
-[14:53:39] [Server thread/INFO]: Sunakaze_q issued server command: //undo
-[14:53:42] [Server thread/INFO]: Sunakaze_q issued server command: //paste
-[14:53:51] [Server thread/INFO]: Sunakaze_q issued server command: //paste
-[14:54:00] [Server thread/INFO]: Sunakaze_q issued server command: //paste
-[14:54:03] [Server thread/INFO]: Sunakaze_q issued server command: //undo
-[14:54:13] [Server thread/INFO]: Sunakaze_q issued server command: //paste
-[14:54:15] [Server thread/INFO]: Sunakaze_q issued server command: //undo
-[14:54:20] [Server thread/INFO]: Sunakaze_q issued server command: //paste
-[14:54:23] [Server thread/INFO]: shigemiiii_ lost connection: Disconnected
-[14:54:23] [Server thread/INFO]: shigemiiii_ left the game
-[14:56:22] [Server thread/INFO]: Sunakaze_q issued server command: //copy
-[14:56:38] [Server thread/INFO]: Sunakaze_q issued server command: //paste
-[14:56:41] [Server thread/INFO]: Sunakaze_q issued server command: //undo
-[14:56:43] [Server thread/INFO]: Sunakaze_q issued server command: //paste
-[15:02:09] [Server thread/INFO]: Sunakaze_q issued server command: /time set 0
-[15:02:09] [Server thread/INFO]: [Sunakaze_q: Set the time to 0]
-[15:07:31] [Server thread/INFO]: Sunakaze_q issued server command: //set 0
-[15:08:11] [Server thread/INFO]: Sunakaze_q issued server command: //set oak_log
-[15:08:23] [Server thread/INFO]: Sunakaze_q issued server command: //set oak_log
-[15:11:03] [Server thread/INFO]: Sunakaze_q issued server command: //set ladder
-[15:11:05] [Server thread/INFO]: Sunakaze_q issued server command: //set ladder
-[15:11:06] [Server thread/INFO]: Sunakaze_q issued server command: //set ladder 2
-[15:11:09] [Server thread/INFO]: Sunakaze_q issued server command: //set ladder 1
-[15:11:18] [Server thread/INFO]: Sunakaze_q issued server command: //set ladder south[
-[15:11:27] [Server thread/INFO]: Sunakaze_q issued server command: //set ladder[facing=east
-[15:11:29] [Server thread/INFO]: Sunakaze_q issued server command: //set ladder[facing=east]
-[15:11:33] [Server thread/INFO]: Sunakaze_q issued server command: //set ladder[facing=west]
-[15:11:40] [Server thread/INFO]: Sunakaze_q issued server command: //set ladder[facing=north]
-[15:11:45] [Server thread/INFO]: Sunakaze_q issued server command: //set ladder[facing=south]
-[15:14:27] [Server thread/INFO]: Sunakaze_q issued server command: /give @p minecraft:barrier
-[15:14:27] [Server thread/INFO]: [Sunakaze_q: Gave 1 [Barrier] to Sunakaze_q]
-[15:14:30] [Server thread/INFO]: Sunakaze_q issued server command: /time set 0
-[15:14:30] [Server thread/INFO]: [Sunakaze_q: Set the time to 0]
-[15:15:19] [Server thread/INFO]: Villager Villager['Villager'/112, uuid='1f644b7b-4bac-4c92-be92-702193c84248', l='ServerLevel[Lobby]', x=9837.47, y=62.94, z=9656.86, cpos=[614, 603], tl=174952, v=true] died, message: 'Villager hit the ground too hard'
-[15:15:35] [Server thread/INFO]: Villager Villager['Nitwit'/133, uuid='87977c62-81a3-4b4a-b29c-867fb96aa9be', l='ServerLevel[Lobby]', x=9841.50, y=97.00, z=9663.79, cpos=[615, 603], tl=174521, v=true] died, message: 'Nitwit hit the ground too hard'
-[15:25:29] [Server thread/INFO]: Sunakaze_q issued server command: /time set 0
-[15:25:29] [Server thread/INFO]: [Sunakaze_q: Set the time to 0]
-[15:36:02] [Server thread/INFO]: Sunakaze_q issued server command: //set barrier
-[15:37:04] [Server thread/INFO]: Sunakaze_q issued server command: /give @p minecraft:command_block
-[15:37:04] [Server thread/INFO]: [Sunakaze_q: Gave 1 [Command Block] to Sunakaze_q]
-[15:43:11] [Server thread/INFO]: Sunakaze_q issued server command: /gamerule doMobSpawning false
-[15:43:11] [Server thread/INFO]: [Sunakaze_q: Gamerule doMobSpawning is now set to: false]
-[15:43:20] [Server thread/INFO]: Sunakaze_q issued server command: /gamerule doDaylightCycle false
-[15:43:20] [Server thread/INFO]: [Sunakaze_q: Gamerule doDaylightCycle is now set to: false]
-[15:43:23] [Server thread/INFO]: Sunakaze_q issued server command: /time set 0
-[15:43:23] [Server thread/INFO]: [Sunakaze_q: Set the time to 0]
-[15:46:21] [Server thread/INFO]: Sunakaze_q issued server command: /give @p minecraft:barrier
-[15:46:21] [Server thread/INFO]: [Sunakaze_q: Gave 1 [Barrier] to Sunakaze_q]
-[15:55:57] [Server thread/INFO]: Sunakaze_q issued server command: /give @p light
-[15:55:57] [Server thread/INFO]: [Sunakaze_q: Gave 1 [Light] to Sunakaze_q]
-[16:01:17] [Server thread/INFO]: Sunakaze_q has made the advancement [A Seedy Place]
-[16:01:17] [Folia Async Scheduler Thread #3/WARN]: java.lang.ClassNotFoundException: Could not find net.minecraft.server.EntityPlayer
-[16:01:17] [Folia Async Scheduler Thread #3/WARN]: 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.util.NMSUtil.fixBukkitClass(NMSUtil.java:122)
-[16:01:17] [Folia Async Scheduler Thread #3/WARN]: 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.util.NMSUtil.<clinit>(NMSUtil.java:61)
-[16:01:17] [Folia Async Scheduler Thread #3/WARN]: 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.DiscordSRV.getAvatarUrl(DiscordSRV.java:2025)
-[16:01:17] [Folia Async Scheduler Thread #3/WARN]: 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.listeners.PlayerAdvancementDoneListener.runAsync(PlayerAdvancementDoneListener.java:115)
-[16:01:17] [Folia Async Scheduler Thread #3/WARN]: 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.listeners.PlayerAdvancementDoneListener.lambda$onPlayerAdvancementDone$0(PlayerAdvancementDoneListener.java:85)
-[16:01:17] [Folia Async Scheduler Thread #3/WARN]: 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.util.SchedulerUtil.lambda$runTaskAsynchronously$1(SchedulerUtil.java:95)
-[16:01:17] [Folia Async Scheduler Thread #3/WARN]: 	at io.papermc.paper.threadedregions.scheduler.FoliaAsyncScheduler$AsyncScheduledTask.run(FoliaAsyncScheduler.java:217)
-[16:01:17] [Folia Async Scheduler Thread #3/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-[16:01:17] [Folia Async Scheduler Thread #3/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-[16:01:17] [Folia Async Scheduler Thread #3/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1570)
-[16:02:27] [Server thread/INFO]: Sunakaze_q issued server command: /effect give @p minecraft:night_vision 300
-[16:02:27] [Server thread/INFO]: [Sunakaze_q: Applied effect Night Vision to Sunakaze_q]
-[16:02:34] [Server thread/INFO]: Sunakaze_q issued server command: /gamemode spectator
-[16:02:34] [Server thread/INFO]: [Sunakaze_q: Set own game mode to Spectator Mode]
-[16:09:44] [Server thread/INFO]: Sunakaze_q lost connection: Disconnected
-[16:09:44] [Server thread/INFO]: Sunakaze_q left the game
-[21:41:44] [Server thread/INFO]: CONSOLE: Are you sure you wish to reload your server? Doing so may cause bugs and memory leaks. It is recommended to restart instead of using /reload. To confirm, please type /reload confirm
-[21:41:52] [Server thread/INFO]: CONSOLE: Please note that this command is not supported and may cause issues when using some plugins.
-[21:41:52] [Server thread/INFO]: CONSOLE: If you encounter any issues please use the /stop command to restart your server.
-[21:41:53] [Server thread/INFO]: Using 4 threads for Netty based IO
-[21:41:53] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[21:41:53] [Server thread/INFO]: [Multiverse-Portals] Disabling Multiverse-Portals v4.2.3
-[21:41:53] [Server thread/INFO]: [DiscordSRV] Disabling DiscordSRV v1.27.0
-[21:41:53] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] [JDA] There was an I/O error while executing a REST request: null
-[21:41:53] [DiscordSRV - JDA Callback 0/ERROR]: [DiscordSRV] DiscordSRV encountered an unknown Discord error: -1: java.io.InterruptedIOException
-[21:41:53] [DiscordSRV - Shutdown/INFO]: [DiscordSRV] 198ミリ秒でシャットダウンしました
-[21:41:53] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.3.1+6763-2e55f4f
-[21:41:53] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[21:41:53] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.128
-[21:41:53] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[21:41:53] [Server thread/INFO]: [LuckPerms] Closing storage...
-[21:41:53] [Server thread/INFO]: [LuckPerms] Goodbye!
-[21:41:53] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.3.12
-[21:41:53] [Server thread/INFO]: Loaded 1175 recipes
-[21:41:54] [Server thread/INFO]: Loaded 1276 advancements
-[21:41:54] [Server thread/INFO]: [Multiverse-Core] Loading server plugin Multiverse-Core v4.3.12
-[21:41:55] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.128
-[21:41:55] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.1+6763-2e55f4f
-[21:41:55] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@20e3f985]
-[21:41:55] [Server thread/INFO]: [DiscordSRV] Loading server plugin DiscordSRV v1.27.0
-[21:41:55] [Server thread/INFO]: [Multiverse-Portals] Loading server plugin Multiverse-Portals v4.2.3
-[21:41:55] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[21:41:55] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.128
-[21:41:55] [Server thread/INFO]:         __    
-[21:41:55] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.128
-[21:41:55] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[21:41:55] [Server thread/INFO]: 
-[21:41:55] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[21:41:56] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[21:41:56] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[21:41:56] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[21:41:56] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 496ms)
-[21:41:56] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.1+6763-2e55f4f
-[21:41:56] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[21:41:56] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[21:41:56] [Server thread/WARN]: [WorldEdit] Server reload detected. This may cause various issues with WorldEdit and dependent plugins.
-[21:41:56] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_20_R4.PaperweightAdapter as the Bukkit adapter
-[21:41:58] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.12
-[21:41:58] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.12" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
-[21:41:58] [Server thread/INFO]: [Multiverse-Core] §aWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
-[21:41:58] [Server thread/INFO]: [Multiverse-Core] 4 - World(s) loaded.
-[21:41:58] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
-[21:41:58] [Server thread/INFO]: [Multiverse-Core] Version 4.3.12 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
-[21:41:58] [Server thread/INFO]: [DiscordSRV] Enabling DiscordSRV v1.27.0
-[21:41:58] [Server thread/INFO]: [Multiverse-Portals] Enabling Multiverse-Portals v4.2.3
-[21:41:58] [Server thread/INFO]: [Multiverse-Portals] 0 - Portals(s) loaded
-[21:41:58] [Server thread/INFO]: [Multiverse-Portals] Found WorldEdit. Using it for selections.
-[21:41:58] [Server thread/INFO]: [Multiverse-Portals 4.2.3]  Enabled - By Rigby and fernferret
-[21:41:58] [Server thread/INFO]: CONSOLE: Reload complete.
-[21:41:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5510ms or 110 ticks behind
-[21:41:58] [Server thread/INFO]: Timings Reset
-[21:41:59] [DiscordSRV - Initialization/INFO]: [DiscordSRV] [JDA] Login Successful!
-[21:42:00] [pool-38-thread-1/INFO]: [DiscordSRV] DiscordSRV is up-to-date. (6405e850eea61a4b9bf4f0d0cbb80fe20b3cfb90)
-[21:42:00] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Connected to WebSocket
-[21:42:01] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Finished Loading!
-[21:42:01] [DiscordSRV - Initialization/INFO]: [DiscordSRV] 見つかったサーバー G:まふぃんうまうま(1030670941363122286)
-[21:42:01] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:rule(1030671352719491142)
-[21:42:01] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:op-ch(1238685323429548122)
-[21:42:01] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:server-log(1238687629852151891)
-[21:42:01] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:サーバー参加同意書📃(1238685578317529190)
-[21:42:01] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:test-channel(1032287685198483478)
-[21:42:01] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:welcom(1030670941811908639)
-[21:42:01] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:【必見】鯖について(1208671061206507541)
-[21:42:01] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:カスタムロール(1208670963214848051)
-[21:42:01] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:最新情報(1212502783006212157)
-[21:42:01] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:お知らせ(1208661437204135957)
-[21:42:01] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:自慢・みてほしい(1030671149782290472)
-[21:42:01] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:【旧募集】招集(1030671128265494558)
-[21:42:01] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:【旧雑談】交流場(1030671104487993484)
-[21:42:01] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:【鯖メン限】作品配布(1208662514431172668)
-[21:42:01] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:no-mic(1033394501097627708)
-[21:42:01] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:戒め(1198667006392684596)
-[21:42:01] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:ぷれみあ～～(1217113459234181211)
-[21:42:01] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:5-digit-faceoff(1231623690840445058)
-[21:42:01] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:ネタクリップ-健全(1218632623291629588)
-[21:42:01] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:ネタクリップ-注意(1218632663817261066)
-[21:42:01] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:ぼっとつかいかた(1208668504979673118)
-[21:42:01] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:bot(1032289674204557362)
-[21:42:01] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:おしらせ【削除予定】(1040137950345834546)
-[21:42:01] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:map-pool(1041399685904076881)
-[21:42:01] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:旧roll(1030672989538230323)
-[21:42:01] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:aho(1186989099496771594)
-[21:42:01] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:bot-便利機能(1032995429408849941)
-[21:42:01] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:┏-vc-channel-update(1124228019788193852)
-[21:42:01] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:muu-server-log(1135783481037836340)
-[21:42:01] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:admin-section(1125458644914425917)
-[21:42:01] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:🌸server-announce(1087202120022892544)
-[21:42:01] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:🧁version-log(1087202182195060787)
-[21:42:01] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:🐹chat(1087202723763593267)
-[21:42:01] [DiscordSRV - Initialization/INFO]: [DiscordSRV] コンソールフォワーディングがチャンネルに割り当てられました TC:server-log(1238687629852151891)
-[21:42:01] [DiscordSRV - Initialization/INFO]: [DiscordSRV] LuckPerms の接続を有効にしました
-[21:42:01] [DiscordSRV - JDA Callback 0/INFO]: [DiscordSRV] Cleared all pre-existing slash commands in 1/1 guilds (0 cancelled)
-[21:43:55] [User Authenticator #1/INFO]: UUID of player shigemiiii_ is 50e06b95-5310-4bd2-bb6f-5b34510607b2
-[21:43:56] [Server thread/INFO]: shigemiiii_ joined the game
-[21:43:56] [Server thread/INFO]: shigemiiii_[/192.168.0.1:51793] logged in with entity id 6551 at ([Lobby]9880.024482090515, 100.0, 9724.516083678413)
-[21:44:23] [Server thread/INFO]: shigemiiii_ issued server command: /gamemode spectator
-[21:44:23] [Server thread/INFO]: [shigemiiii_: Set own game mode to Spectator Mode]
-[21:49:40] [JDA MainWS-ReadThread/WARN]: [DiscordSRV] [JDA] Got disconnected from WebSocket (Code 1000). Appending to reconnect queue
-[21:49:42] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Connected to WebSocket
-[21:49:42] [JDA MainWS-WriteThread/ERROR]: [DiscordSRV] [JDA] WebSocket connection was closed and cannot be recovered due to identification issues
-CloseCode(4004 / The account token sent with your identify payload is incorrect.)
-[21:49:42] [JDA MainWS-WriteThread/ERROR]: [DiscordSRV] ===================================================
-[21:49:42] [JDA MainWS-WriteThread/ERROR]: [DiscordSRV]  
-[21:49:42] [JDA MainWS-WriteThread/ERROR]: [DiscordSRV]  DiscordSRV was disconnected from Discord because:
-[21:49:42] [JDA MainWS-WriteThread/ERROR]: [DiscordSRV]  The bot token is invalid
-[21:49:42] [JDA MainWS-WriteThread/ERROR]: [DiscordSRV]  
-[21:49:42] [JDA MainWS-WriteThread/ERROR]: [DiscordSRV] ===================================================
-[21:49:42] [Server thread/INFO]: [DiscordSRV] Disabling DiscordSRV v1.27.0
-[21:49:47] [DiscordSRV - Shutdown/WARN]: [DiscordSRV] JDA took too long to shut down, skipping
-[21:49:47] [DiscordSRV - Shutdown/INFO]: [DiscordSRV] 5012ミリ秒でシャットダウンしました
-[21:49:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4974ms or 99 ticks behind
-[22:22:41] [Server thread/INFO]: CONSOLE: Are you sure you wish to reload your server? Doing so may cause bugs and memory leaks. It is recommended to restart instead of using /reload. To confirm, please type /reload confirm
-[22:22:50] [Server thread/INFO]: CONSOLE: Please note that this command is not supported and may cause issues when using some plugins.
-[22:22:50] [Server thread/INFO]: CONSOLE: If you encounter any issues please use the /stop command to restart your server.
-[22:22:50] [Server thread/INFO]: Using 4 threads for Netty based IO
-[22:22:50] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[22:22:50] [Server thread/INFO]: [Multiverse-Portals] Disabling Multiverse-Portals v4.2.3
-[22:22:50] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.3.1+6763-2e55f4f
-[22:22:50] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[22:22:50] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.128
-[22:22:50] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[22:22:50] [Server thread/INFO]: [LuckPerms] Closing storage...
-[22:22:50] [Server thread/INFO]: [LuckPerms] Goodbye!
-[22:22:50] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.3.12
-[22:22:50] [Server thread/INFO]: Loaded 1175 recipes
-[22:22:50] [Server thread/INFO]: Loaded 1276 advancements
-[22:22:51] [Server thread/INFO]: [Multiverse-Core] Loading server plugin Multiverse-Core v4.3.12
-[22:22:51] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.128
-[22:22:51] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.1+6763-2e55f4f
-[22:22:52] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@793b444a]
-[22:22:52] [Server thread/INFO]: [DiscordSRV] Loading server plugin DiscordSRV v1.27.0
-[22:22:52] [Server thread/INFO]: [Multiverse-Portals] Loading server plugin Multiverse-Portals v4.2.3
-[22:22:52] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[22:22:52] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.128
-[22:22:52] [Server thread/INFO]:         __    
-[22:22:52] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.128
-[22:22:52] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[22:22:52] [Server thread/INFO]: 
-[22:22:52] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[22:22:52] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[22:22:52] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[22:22:52] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[22:22:52] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 502ms)
-[22:22:52] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.1+6763-2e55f4f
-[22:22:52] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[22:22:53] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[22:22:53] [Server thread/WARN]: [WorldEdit] Server reload detected. This may cause various issues with WorldEdit and dependent plugins.
-[22:22:53] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_20_R4.PaperweightAdapter as the Bukkit adapter
-[22:22:54] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.12
-[22:22:54] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.12" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
-[22:22:54] [Server thread/INFO]: [Multiverse-Core] §aWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
-[22:22:54] [Server thread/INFO]: [Multiverse-Core] 4 - World(s) loaded.
-[22:22:54] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
-[22:22:54] [Server thread/INFO]: [Multiverse-Core] Version 4.3.12 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
-[22:22:54] [Server thread/INFO]: [DiscordSRV] Enabling DiscordSRV v1.27.0
-[22:22:54] [Server thread/INFO]: [Multiverse-Portals] Enabling Multiverse-Portals v4.2.3
-[22:22:54] [Server thread/INFO]: [Multiverse-Portals] 0 - Portals(s) loaded
-[22:22:54] [Server thread/INFO]: [Multiverse-Portals] Found WorldEdit. Using it for selections.
-[22:22:54] [Server thread/INFO]: [Multiverse-Portals 4.2.3]  Enabled - By Rigby and fernferret
-[22:22:54] [Server thread/INFO]: CONSOLE: Reload complete.
-[22:22:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4580ms or 91 ticks behind
-[22:22:54] [Server thread/INFO]: Timings Reset
-[22:22:56] [pool-51-thread-1/INFO]: [DiscordSRV] DiscordSRV is up-to-date. (6405e850eea61a4b9bf4f0d0cbb80fe20b3cfb90)
-[22:22:57] [DiscordSRV - Initialization/INFO]: [DiscordSRV] [JDA] Login Successful!
-[22:22:57] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Connected to WebSocket
-[22:22:58] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Finished Loading!
-[22:22:58] [DiscordSRV - Initialization/INFO]: [DiscordSRV] 見つかったサーバー G:まふぃんうまうま(1030670941363122286)
-[22:22:58] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:rule(1030671352719491142)
-[22:22:58] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:op-ch(1238685323429548122)
-[22:22:58] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:server-log(1238687629852151891)
-[22:22:58] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:サーバー参加同意書📃(1238685578317529190)
-[22:22:58] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:test-channel(1032287685198483478)
-[22:22:58] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:welcom(1030670941811908639)
-[22:22:58] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:【必見】鯖について(1208671061206507541)
-[22:22:58] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:カスタムロール(1208670963214848051)
-[22:22:58] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:最新情報(1212502783006212157)
-[22:22:58] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:お知らせ(1208661437204135957)
-[22:22:58] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:自慢・みてほしい(1030671149782290472)
-[22:22:58] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:【旧募集】招集(1030671128265494558)
-[22:22:58] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:【旧雑談】交流場(1030671104487993484)
-[22:22:58] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:【鯖メン限】作品配布(1208662514431172668)
-[22:22:58] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:no-mic(1033394501097627708)
-[22:22:58] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:戒め(1198667006392684596)
-[22:22:58] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:ぷれみあ～～(1217113459234181211)
-[22:22:58] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:5-digit-faceoff(1231623690840445058)
-[22:22:58] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:ネタクリップ-健全(1218632623291629588)
-[22:22:58] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:ネタクリップ-注意(1218632663817261066)
-[22:22:58] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:ぼっとつかいかた(1208668504979673118)
-[22:22:58] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:bot(1032289674204557362)
-[22:22:58] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:おしらせ【削除予定】(1040137950345834546)
-[22:22:58] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:map-pool(1041399685904076881)
-[22:22:58] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:旧roll(1030672989538230323)
-[22:22:58] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:aho(1186989099496771594)
-[22:22:58] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:bot-便利機能(1032995429408849941)
-[22:22:58] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:┏-vc-channel-update(1124228019788193852)
-[22:22:58] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:muu-server-log(1135783481037836340)
-[22:22:58] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:admin-section(1125458644914425917)
-[22:22:58] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:🌸server-announce(1087202120022892544)
-[22:22:58] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:🧁version-log(1087202182195060787)
-[22:22:58] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:🐹chat(1087202723763593267)
-[22:22:58] [DiscordSRV - Initialization/INFO]: [DiscordSRV] コンソールフォワーディングがチャンネルに割り当てられました TC:server-log(1238687629852151891)
-[22:22:58] [DiscordSRV - Initialization/INFO]: [DiscordSRV] LuckPerms の接続を有効にしました
-[22:22:58] [DiscordSRV - JDA Callback 0/INFO]: [DiscordSRV] Cleared all pre-existing slash commands in 1/1 guilds (0 cancelled)
-[22:23:06] [Server thread/INFO]: shigemiiii_ issued server command: /gamemode spectator
-[22:23:06] [Server thread/INFO]: [shigemiiii_: Set own game mode to Spectator Mode]
+[12:11:58] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 2 worker threads, and gen parallelism of 2 threads
+[12:11:58] [Server thread/INFO]: Default game type: SURVIVAL
+[12:11:58] [Server thread/INFO]: Generating keypair
+[12:11:58] [Server thread/INFO]: Starting Minecraft server on *:24775
+[12:11:58] [Server thread/INFO]: Using default channel type
+[12:11:59] [Server thread/INFO]: Paper: Using libdeflate (macOS ARM64 / Apple Silicon) compression from Velocity.
+[12:11:59] [Server thread/INFO]: Paper: Using native (macOS ARM64 / Apple Silicon) cipher from Velocity.
+[12:12:00] [Server thread/INFO]: [Multiverse-Core] Loading server plugin Multiverse-Core v4.3.12
+[12:12:00] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.128
+[12:12:00] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.1+6763-2e55f4f
+[12:12:02] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@406c3a1d]
+[12:12:02] [Server thread/INFO]: [DiscordSRV] Loading server plugin DiscordSRV v1.27.0
+[12:12:02] [Server thread/INFO]: [Multiverse-Portals] Loading server plugin Multiverse-Portals v4.2.3
+[12:12:02] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[12:12:02] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.128
+[12:12:02] [Server thread/INFO]:         __    
+[12:12:02] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.128
+[12:12:02] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[12:12:02] [Server thread/INFO]: 
+[12:12:02] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[12:12:02] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[12:12:02] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[12:12:03] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[12:12:03] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1061ms)
+[12:12:03] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.1+6763-2e55f4f
+[12:12:03] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[12:12:03] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[12:12:04] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_20_R4.PaperweightAdapter as the Bukkit adapter
+[12:12:05] [Server thread/INFO]: Preparing level "world"
+[12:12:06] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[12:12:08] [Server thread/INFO]: Time elapsed: 1219 ms
+[12:12:08] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[12:12:08] [Server thread/INFO]: Time elapsed: 124 ms
+[12:12:08] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[12:12:08] [Server thread/INFO]: Time elapsed: 110 ms
+[12:12:08] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.12
+[12:12:08] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.12" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
+[12:12:08] [Server thread/INFO]: [Multiverse-Core] §aWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
+[12:12:08] [Server thread/INFO]: Preparing start region for dimension minecraft:lobby
+[12:12:08] [Server thread/INFO]: Time elapsed: 181 ms
+[12:12:08] [Server thread/INFO]: [Multiverse-Core] 4 - World(s) loaded.
+[12:12:08] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
+[12:12:08] [Server thread/INFO]: [Multiverse-Core] Version 4.3.12 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
+[12:12:08] [Server thread/INFO]: [DiscordSRV] Enabling DiscordSRV v1.27.0
+[12:12:09] [Server thread/INFO]: [Multiverse-Portals] Enabling Multiverse-Portals v4.2.3
+[12:12:09] [Server thread/INFO]: [Multiverse-Portals] 0 - Portals(s) loaded
+[12:12:09] [Server thread/INFO]: [Multiverse-Portals] Found WorldEdit. Using it for selections.
+[12:12:09] [Server thread/INFO]: [Multiverse-Portals 4.2.3]  Enabled - By Rigby and fernferret
+[12:12:09] [Server thread/INFO]: Running delayed init tasks
+[12:12:09] [Server thread/INFO]: Done (12.708s)! For help, type "help"
+[12:12:09] [Server thread/INFO]: Timings Reset
+[12:12:10] [pool-24-thread-1/INFO]: [DiscordSRV] DiscordSRV is up-to-date. (6405e850eea61a4b9bf4f0d0cbb80fe20b3cfb90)
+[12:12:12] [DiscordSRV - Initialization/INFO]: [DiscordSRV] [JDA] Login Successful!
+[12:12:13] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Connected to WebSocket
+[12:12:14] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Finished Loading!
+[12:12:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] 見つかったサーバー G:まふぃんうまうま(1030670941363122286)
+[12:12:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:rule(1030671352719491142)
+[12:12:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:op-ch(1238685323429548122)
+[12:12:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:github(1239934088844939315)
+[12:12:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:server-log(1238687629852151891)
+[12:12:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:サーバー参加同意書📃(1238685578317529190)
+[12:12:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:test-channel(1032287685198483478)
+[12:12:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:welcom(1030670941811908639)
+[12:12:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:【必見】鯖について(1208671061206507541)
+[12:12:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:カスタムロール(1208670963214848051)
+[12:12:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:最新情報(1212502783006212157)
+[12:12:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:お知らせ(1208661437204135957)
+[12:12:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:自慢・みてほしい(1030671149782290472)
+[12:12:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:【旧募集】招集(1030671128265494558)
+[12:12:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:【旧雑談】交流場(1030671104487993484)
+[12:12:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:【鯖メン限】作品配布(1208662514431172668)
+[12:12:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:no-mic(1033394501097627708)
+[12:12:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:戒め(1198667006392684596)
+[12:12:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:ぷれみあ～～(1217113459234181211)
+[12:12:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:5-digit-faceoff(1231623690840445058)
+[12:12:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:ネタクリップ-健全(1218632623291629588)
+[12:12:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:ネタクリップ-注意(1218632663817261066)
+[12:12:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:ぼっとつかいかた(1208668504979673118)
+[12:12:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:bot(1032289674204557362)
+[12:12:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:おしらせ【削除予定】(1040137950345834546)
+[12:12:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:map-pool(1041399685904076881)
+[12:12:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:旧roll(1030672989538230323)
+[12:12:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:aho(1186989099496771594)
+[12:12:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:bot-便利機能(1032995429408849941)
+[12:12:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:┏-vc-channel-update(1124228019788193852)
+[12:12:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:muu-server-log(1135783481037836340)
+[12:12:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:admin-section(1125458644914425917)
+[12:12:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:🌸server-announce(1087202120022892544)
+[12:12:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:🧁version-log(1087202182195060787)
+[12:12:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:🐹chat(1087202723763593267)
+[12:12:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] コンソールフォワーディングがチャンネルに割り当てられました TC:server-log(1238687629852151891)
+[12:12:14] [DiscordSRV - Initialization/ERROR]: [STDERR] [com.mysql.jdbc.Driver] Loading class `com.mysql.jdbc.Driver'. This is deprecated. The new driver class is `com.mysql.cj.jdbc.Driver'. The driver is automatically registered via the SPI and manual loading of the driver class is generally unnecessary.
+[12:12:15] [DiscordSRV - Initialization/INFO]: [DiscordSRV] LuckPerms の接続を有効にしました
+[12:12:15] [DiscordSRV - JDA Callback 0/INFO]: [DiscordSRV] Cleared all pre-existing slash commands in 1/1 guilds (0 cancelled)
+[12:54:03] [User Authenticator #0/INFO]: UUID of player shigemiiii_ is 50e06b95-5310-4bd2-bb6f-5b34510607b2
+[12:54:04] [Server thread/INFO]: shigemiiii_ joined the game
+[12:54:04] [Server thread/INFO]: shigemiiii_[/192.168.0.1:54574] logged in with entity id 123 at ([Lobby]9858.127332078306, 100.5, 9724.088988794452)
+[12:55:55] [Server thread/INFO]: shigemiiii_ issued server command: /gamemode creative
+[12:55:55] [Server thread/INFO]: [shigemiiii_: Set own game mode to Creative Mode]
+[12:56:48] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2590ms or 51 ticks behind
+[14:37:10] [User Authenticator #1/INFO]: UUID of player Sunakaze21 is 940a0fe0-62c7-4df3-a440-93d9b970f1d1
+[14:37:11] [Server thread/INFO]: Sunakaze21 joined the game
+[14:37:11] [Server thread/INFO]: Sunakaze21[/106.173.158.109:50529] logged in with entity id 2318 at ([Lobby]9862.395981214178, 110.38858537930183, 9725.144451533297)
+[14:37:15] [Server thread/INFO]: Sunakaze21 issued server command: /gamemode creative
+[14:37:15] [Server thread/INFO]: [Sunakaze21: Set own game mode to Creative Mode]
+[14:41:24] [Server thread/INFO]: Sunakaze21 issued server command: /summon minecraft:area_effect_cloud ~ ~ ~ {Duration:6,Effects:{Id:25,Amplifier:60s,Duration:2}}
+[14:41:24] [Server thread/INFO]: [Sunakaze21: Summoned new Area Effect Cloud]
+[14:41:31] [Server thread/INFO]: Sunakaze21 issued server command: /summon minecraft:area_effect_cloud ~ ~ ~ {Duration:6,Effects:{Id:25,Amplifier:60s,Duration:2}}
+[14:41:31] [Server thread/INFO]: [Sunakaze21: Summoned new Area Effect Cloud]
+[14:42:34] [Server thread/INFO]: Sunakaze21 issued server command: /summon minecraft:area_effect_cloud ~ ~ ~ {Duration:20,Effects:{Id:25,Amplifier:60s,Duration:20}}
+[14:42:34] [Server thread/INFO]: [Sunakaze21: Summoned new Area Effect Cloud]
+[14:42:36] [Server thread/INFO]: Sunakaze21 issued server command: /summon minecraft:area_effect_cloud ~ ~ ~ {Duration:20,Effects:{Id:25,Amplifier:60s,Duration:20}}
+[14:42:36] [Server thread/INFO]: [Sunakaze21: Summoned new Area Effect Cloud]
+[14:42:48] [Server thread/INFO]: Sunakaze21 issued server command: /summon minecraft:area_effect_cloud ~ ~ ~ {Duration:20,Effects:{Id:1,Amplifier:60s,Duration:20}}
+[14:42:48] [Server thread/INFO]: [Sunakaze21: Summoned new Area Effect Cloud]
+[14:43:18] [Server thread/INFO]: Sunakaze21 issued server command: /summon minecraft:area_effect_cloud ~ ~ ~ {Age:20,Effects:{Id:1,Amplifier:60s,Duration:20}}
+[14:43:18] [Server thread/INFO]: [Sunakaze21: Summoned new Area Effect Cloud]
+[14:43:26] [Server thread/INFO]: Sunakaze21 issued server command: /summon minecraft:area_effect_cloud ~ ~ ~ {age:20,effects:{Id:1,Amplifier:60s,Duration:20}}
+[14:43:26] [Server thread/INFO]: [Sunakaze21: Summoned new Area Effect Cloud]
+[14:43:34] [Server thread/INFO]: Sunakaze21 issued server command: /summon minecraft:area_effect_cloud ~ ~ ~ {age:20,effects:{id:1,amplifier:60s,duration:20}}
+[14:43:34] [Server thread/INFO]: [Sunakaze21: Summoned new Area Effect Cloud]
+[14:43:55] [Server thread/INFO]: Sunakaze21 issued server command: /summon minecraft:area_effect_cloud ~ ~ ~ {age:20,effects:{id:jump_boost,amplifier:60s,duration:20}}
+[14:43:55] [Server thread/INFO]: [Sunakaze21: Summoned new Area Effect Cloud]
+[14:44:23] [Server thread/INFO]: Sunakaze21 issued server command: /summon minecraft:area_effect_cloud ~ ~ ~ {age:20,effects:{id:jump_boost,amplifier:60,duration:20}}
+[14:44:23] [Server thread/INFO]: [Sunakaze21: Summoned new Area Effect Cloud]
+[14:49:44] [Server thread/INFO]: Sunakaze21 issued server command: /summon area_effect_cloud ~ ~ ~ {Particle:undefined,Radius:2,RadiusPerTick:1,Duration:7,effects:[{id:levitation,duration:5,amplifier:20,show_particles:1b,show_icon:1}]}
+[14:49:44] [Server thread/INFO]: [Sunakaze21: Summoned new Area Effect Cloud]
+[14:49:47] [Server thread/INFO]: Sunakaze21 issued server command: /summon area_effect_cloud ~ ~ ~ {Particle:undefined,Radius:2,RadiusPerTick:1,Duration:7,effects:[{id:levitation,duration:5,amplifier:20,show_particles:1b,show_icon:1}]}
+[14:49:47] [Server thread/INFO]: [Sunakaze21: Summoned new Area Effect Cloud]
+[14:49:51] [Server thread/INFO]: Sunakaze21 issued server command: /summon area_effect_cloud ~ ~ ~ {Particle:undefined,Radius:2,RadiusPerTick:1,Duration:7,effects:[{id:levitation,duration:5,amplifier:20,show_particles:1b,show_icon:1}]}
+[14:49:51] [Server thread/INFO]: [Sunakaze21: Summoned new Area Effect Cloud]
+[14:50:04] [Server thread/INFO]: Sunakaze21 issued server command: /summon area_effect_cloud ~ ~ ~ {Particle:undefined,Radius:2,RadiusPerTick:1,Duration:7,effects:[{id:levitation,duration:5,amplifier:20,show_particles:1b,show_icon:1}]}
+[14:50:04] [Server thread/INFO]: [Sunakaze21: Summoned new Area Effect Cloud]
+[14:50:07] [Server thread/INFO]: Sunakaze21 issued server command: /summon area_effect_cloud ~ ~ ~ {Particle:undefined,Radius:2,RadiusPerTick:1,Duration:7,effects:[{id:levitation,duration:5,amplifier:20,show_particles:1b,show_icon:1}]}
+[14:50:07] [Server thread/INFO]: [Sunakaze21: Summoned new Area Effect Cloud]
+[14:50:10] [Server thread/INFO]: Sunakaze21 issued server command: /summon area_effect_cloud ~ ~ ~ {Particle:undefined,Radius:2,RadiusPerTick:1,Duration:7,effects:[{id:levitation,duration:5,amplifier:20,show_particles:1b,show_icon:1}]}
+[14:50:10] [Server thread/INFO]: [Sunakaze21: Summoned new Area Effect Cloud]
+[14:50:26] [Server thread/INFO]: Sunakaze21 issued server command: /summon area_effect_cloud ~ ~ ~ {Particle:undefined,Radius:2,RadiusPerTick:1,Duration:7,effects:[{id:levitation,duration:5,amplifier:20,show_particles:1b,show_icon:1}]}
+[14:50:26] [Server thread/INFO]: [Sunakaze21: Summoned new Area Effect Cloud]
+[14:51:02] [Server thread/INFO]: Sunakaze21 issued server command: /summon area_effect_cloud ~ ~ ~ {Particle:undefined,Radius:2,RadiusPerTick:1,Duration:7,effects:[{id:levitation,duration:5,amplifier:20,ambient:1b,show_particles:1b,show_icon:1}]}
+[14:51:02] [Server thread/INFO]: [Sunakaze21: Summoned new Area Effect Cloud]
+[14:51:04] [Server thread/INFO]: Sunakaze21 issued server command: /summon area_effect_cloud ~ ~ ~ {Particle:undefined,Radius:2,RadiusPerTick:1,Duration:7,effects:[{id:levitation,duration:5,amplifier:20,ambient:1b,show_particles:1b,show_icon:1}]}
+[14:51:04] [Server thread/INFO]: [Sunakaze21: Summoned new Area Effect Cloud]
+[14:51:05] [Server thread/INFO]: Sunakaze21 issued server command: /summon area_effect_cloud ~ ~ ~ {Particle:undefined,Radius:2,RadiusPerTick:1,Duration:7,effects:[{id:levitation,duration:5,amplifier:20,ambient:1b,show_particles:1b,show_icon:1}]}
+[14:51:05] [Server thread/INFO]: [Sunakaze21: Summoned new Area Effect Cloud]
+[14:51:06] [Server thread/INFO]: Sunakaze21 issued server command: /summon area_effect_cloud ~ ~ ~ {Particle:undefined,Radius:2,RadiusPerTick:1,Duration:7,effects:[{id:levitation,duration:5,amplifier:20,ambient:1b,show_particles:1b,show_icon:1}]}
+[14:51:06] [Server thread/INFO]: [Sunakaze21: Summoned new Area Effect Cloud]
+[14:51:06] [Server thread/INFO]: Sunakaze21 issued server command: /summon area_effect_cloud ~ ~ ~ {Particle:undefined,Radius:2,RadiusPerTick:1,Duration:7,effects:[{id:levitation,duration:5,amplifier:20,ambient:1b,show_particles:1b,show_icon:1}]}
+[14:51:06] [Server thread/INFO]: [Sunakaze21: Summoned new Area Effect Cloud]
+[14:51:06] [Server thread/INFO]: Sunakaze21 issued server command: /summon area_effect_cloud ~ ~ ~ {Particle:undefined,Radius:2,RadiusPerTick:1,Duration:7,effects:[{id:levitation,duration:5,amplifier:20,ambient:1b,show_particles:1b,show_icon:1}]}
+[14:51:06] [Server thread/INFO]: [Sunakaze21: Summoned new Area Effect Cloud]
+[14:51:07] [Server thread/INFO]: Sunakaze21 issued server command: /summon area_effect_cloud ~ ~ ~ {Particle:undefined,Radius:2,RadiusPerTick:1,Duration:7,effects:[{id:levitation,duration:5,amplifier:20,ambient:1b,show_particles:1b,show_icon:1}]}
+[14:51:07] [Server thread/INFO]: [Sunakaze21: Summoned new Area Effect Cloud]
+[14:51:26] [Server thread/INFO]: Sunakaze21 issued server command: /effect give @p minecraft:levitation 1 10
+[14:51:26] [Server thread/INFO]: [Sunakaze21: Applied effect Levitation to Sunakaze21]
+[14:51:31] [Server thread/INFO]: Sunakaze21 issued server command: /effect give @p minecraft:levitation 1 10
+[14:51:31] [Server thread/INFO]: [Sunakaze21: Applied effect Levitation to Sunakaze21]
+[14:51:34] [Server thread/INFO]: Sunakaze21 issued server command: /effect give @p minecraft:levitation 1 10
+[14:51:34] [Server thread/INFO]: [Sunakaze21: Applied effect Levitation to Sunakaze21]
+[14:51:38] [Server thread/INFO]: Sunakaze21 issued server command: /effect give @p minecraft:levitation 1 10
+[14:51:38] [Server thread/INFO]: [Sunakaze21: Applied effect Levitation to Sunakaze21]
+[14:56:33] [Server thread/INFO]: Sunakaze21 issued server command: /give @p minecraft:command_block
+[14:56:33] [Server thread/INFO]: [Sunakaze21: Gave 1 [Command Block] to Sunakaze21]
+[14:56:41] [Server thread/INFO]: [@: Summoned new Area Effect Cloud]
+[14:56:59] [Server thread/INFO]: [@: Summoned new Area Effect Cloud]
+[14:57:06] [Server thread/INFO]: Sunakaze21 issued server command: /summon area_effect_cloud ~ ~ ~ {Radius:2f,Duration:10,Age:10,potion_contents:{custom_effects:[{id:"minecraft:levitation",amplifier:20,duration:4,show_particles:0b,show_icon:0b,ambient:0b}]}}
+[14:57:06] [Server thread/INFO]: [Sunakaze21: Summoned new Area Effect Cloud]
+[14:58:17] [Server thread/INFO]: [@: Summoned new Area Effect Cloud]
+[14:58:20] [Server thread/INFO]: [@: Summoned new Area Effect Cloud]
+[14:58:23] [Server thread/INFO]: [@: Summoned new Area Effect Cloud]
+[15:00:44] [Server thread/INFO]: Sunakaze21 issued server command: /summon armor_stand ~ ~ ~ {Invisible:1b,Invulnerable:1b,NoGravity:1b,Marker:1b,Tags:["shift_jump1"]}
+[15:00:44] [Server thread/INFO]: [Sunakaze21: Summoned new Armor Stand]
+[15:00:48] [Server thread/INFO]: Sunakaze21 issued server command: /gamemode spectator
+[15:00:48] [Server thread/INFO]: [Sunakaze21: Set own game mode to Spectator Mode]
+[15:00:59] [Server thread/INFO]: Sunakaze21 issued server command: /gamemode creative
+[15:00:59] [Server thread/INFO]: [Sunakaze21: Set own game mode to Creative Mode]
+[15:02:18] [Server thread/INFO]: Sunakaze21 issued server command: /scoreboard objectives add Shift_1 minecraft.custom:minecraft.sneak_time
+[15:02:18] [Server thread/INFO]: [Sunakaze21: Created new objective [Shift_1]]
+[15:03:35] [Server thread/INFO]: [Sunakaze21: Set [Shift_1] for Sunakaze21 to 0]
+[15:03:37] [Server thread/INFO]: [Sunakaze21: Set [Shift_1] for Sunakaze21 to 0]
+[15:03:37] [Server thread/INFO]: [Sunakaze21: Set [Shift_1] for Sunakaze21 to 0]
+[15:03:37] [Server thread/INFO]: [Sunakaze21: Set [Shift_1] for Sunakaze21 to 0]
+[15:03:37] [Server thread/INFO]: [Sunakaze21: Set [Shift_1] for Sunakaze21 to 0]
+[15:03:37] [Server thread/INFO]: [Sunakaze21: Set [Shift_1] for Sunakaze21 to 0]
+[15:03:37] [Server thread/INFO]: [Sunakaze21: Set [Shift_1] for Sunakaze21 to 0]
+[15:03:37] [Server thread/INFO]: [Sunakaze21: Set [Shift_1] for Sunakaze21 to 0]
+[15:03:37] [Server thread/INFO]: [Sunakaze21: Set [Shift_1] for Sunakaze21 to 0]
+[15:03:37] [Server thread/INFO]: [Sunakaze21: Set [Shift_1] for Sunakaze21 to 0]
+[15:03:37] [Server thread/INFO]: [Sunakaze21: Set [Shift_1] for Sunakaze21 to 0]
+[15:03:37] [Server thread/INFO]: [Sunakaze21: Set [Shift_1] for Sunakaze21 to 0]
+[15:04:09] [Server thread/INFO]: [Sunakaze21: Set [Shift_1] for Sunakaze21 to 0]
+[15:04:09] [Server thread/INFO]: [Sunakaze21: Set [Shift_1] for Sunakaze21 to 0]
+[15:04:09] [Server thread/INFO]: [Sunakaze21: Set [Shift_1] for Sunakaze21 to 0]
+[15:04:09] [Server thread/INFO]: [Sunakaze21: Set [Shift_1] for Sunakaze21 to 0]
+[15:04:09] [Server thread/INFO]: [Sunakaze21: Set [Shift_1] for Sunakaze21 to 0]
+[15:04:09] [Server thread/INFO]: [Sunakaze21: Set [Shift_1] for Sunakaze21 to 0]
+[15:04:09] [Server thread/INFO]: [Sunakaze21: Set [Shift_1] for Sunakaze21 to 0]
+[15:04:09] [Server thread/INFO]: [Sunakaze21: Set [Shift_1] for Sunakaze21 to 0]
+[15:04:10] [Server thread/INFO]: [Sunakaze21: Set [Shift_1] for Sunakaze21 to 0]
+[15:04:10] [Server thread/INFO]: [Sunakaze21: Set [Shift_1] for Sunakaze21 to 0]
+[15:04:12] [Server thread/INFO]: [Sunakaze21: Set [Shift_1] for Sunakaze21 to 0]
+[15:04:12] [Server thread/INFO]: [Sunakaze21: Set [Shift_1] for Sunakaze21 to 0]
+[15:04:16] [Server thread/INFO]: [Sunakaze21: Set [Shift_1] for Sunakaze21 to 0]
+[15:04:16] [Server thread/INFO]: [Sunakaze21: Set [Shift_1] for Sunakaze21 to 0]
+[15:04:27] [Server thread/INFO]: [Sunakaze21: Set [Shift_1] for Sunakaze21 to 0]
+[15:04:27] [Server thread/INFO]: [Sunakaze21: Set [Shift_1] for Sunakaze21 to 0]
+[15:04:27] [Server thread/INFO]: [Sunakaze21: Set [Shift_1] for Sunakaze21 to 0]
+[15:04:27] [Server thread/INFO]: [Sunakaze21: Set [Shift_1] for Sunakaze21 to 0]
+[15:04:27] [Server thread/INFO]: [Sunakaze21: Set [Shift_1] for Sunakaze21 to 0]
+[15:04:27] [Server thread/INFO]: [Sunakaze21: Set [Shift_1] for Sunakaze21 to 0]
+[15:04:27] [Server thread/INFO]: [Sunakaze21: Set [Shift_1] for Sunakaze21 to 0]
+[15:04:27] [Server thread/INFO]: [Sunakaze21: Set [Shift_1] for Sunakaze21 to 0]
+[15:04:27] [Server thread/INFO]: [Sunakaze21: Set [Shift_1] for Sunakaze21 to 0]
+[15:04:27] [Server thread/INFO]: [Sunakaze21: Set [Shift_1] for Sunakaze21 to 0]
+[15:04:28] [Server thread/INFO]: [Sunakaze21: Set [Shift_1] for Sunakaze21 to 0]
+[15:04:28] [Server thread/INFO]: [Sunakaze21: Set [Shift_1] for Sunakaze21 to 0]
+[15:04:33] [Server thread/INFO]: [@: Applied effect Levitation to Sunakaze21]
+[15:04:33] [Server thread/INFO]: [@: Applied effect Levitation to Sunakaze21]
+[15:04:33] [Server thread/INFO]: [Sunakaze21: Set [Shift_1] for Sunakaze21 to 0]
+[15:04:33] [Server thread/INFO]: [@: Applied effect Levitation to Sunakaze21]
+[15:04:33] [Server thread/INFO]: [Sunakaze21: Set [Shift_1] for Sunakaze21 to 0]
+[15:04:33] [Server thread/INFO]: [@: Applied effect Levitation to Sunakaze21]
+[15:04:33] [Server thread/INFO]: [Sunakaze21: Set [Shift_1] for Sunakaze21 to 0]
+[15:04:33] [Server thread/INFO]: [@: Applied effect Levitation to Sunakaze21]
+[15:04:33] [Server thread/INFO]: [Sunakaze21: Set [Shift_1] for Sunakaze21 to 0]
+[15:04:33] [Server thread/INFO]: [@: Applied effect Levitation to Sunakaze21]
+[15:04:33] [Server thread/INFO]: [Sunakaze21: Set [Shift_1] for Sunakaze21 to 0]
+[15:04:36] [Server thread/INFO]: [@: Applied effect Levitation to Sunakaze21]
+[15:04:36] [Server thread/INFO]: [@: Applied effect Levitation to Sunakaze21]
+[15:04:36] [Server thread/INFO]: [Sunakaze21: Set [Shift_1] for Sunakaze21 to 0]
+[15:04:50] [Server thread/INFO]: [@: Applied effect Levitation to Sunakaze21]
+[15:04:50] [Server thread/INFO]: [@: Applied effect Levitation to Sunakaze21]
+[15:04:50] [Server thread/INFO]: [Sunakaze21: Set [Shift_1] for Sunakaze21 to 0]
+[15:04:50] [Server thread/INFO]: [@: Applied effect Levitation to Sunakaze21]
+[15:04:50] [Server thread/INFO]: [Sunakaze21: Set [Shift_1] for Sunakaze21 to 0]
+[15:04:50] [Server thread/INFO]: [@: Applied effect Levitation to Sunakaze21]
+[15:04:50] [Server thread/INFO]: [Sunakaze21: Set [Shift_1] for Sunakaze21 to 0]
+[15:04:50] [Server thread/INFO]: [@: Applied effect Levitation to Sunakaze21]
+[15:04:50] [Server thread/INFO]: [Sunakaze21: Set [Shift_1] for Sunakaze21 to 0]
+[15:04:50] [Server thread/INFO]: [@: Applied effect Levitation to Sunakaze21]
+[15:04:50] [Server thread/INFO]: [Sunakaze21: Set [Shift_1] for Sunakaze21 to 0]
+[15:04:50] [Server thread/INFO]: [@: Applied effect Levitation to Sunakaze21]
+[15:04:50] [Server thread/INFO]: [Sunakaze21: Set [Shift_1] for Sunakaze21 to 0]
+[15:04:50] [Server thread/INFO]: [@: Applied effect Levitation to Sunakaze21]
+[15:04:50] [Server thread/INFO]: [Sunakaze21: Set [Shift_1] for Sunakaze21 to 0]
+[15:04:50] [Server thread/INFO]: [@: Applied effect Levitation to Sunakaze21]
+[15:04:50] [Server thread/INFO]: [Sunakaze21: Set [Shift_1] for Sunakaze21 to 0]
+[15:04:50] [Server thread/INFO]: [@: Applied effect Levitation to Sunakaze21]
+[15:04:50] [Server thread/INFO]: [Sunakaze21: Set [Shift_1] for Sunakaze21 to 0]
+[15:04:50] [Server thread/INFO]: [@: Applied effect Levitation to Sunakaze21]
+[15:04:50] [Server thread/INFO]: [Sunakaze21: Set [Shift_1] for Sunakaze21 to 0]
+[15:04:50] [Server thread/INFO]: [@: Applied effect Levitation to Sunakaze21]
+[15:04:50] [Server thread/INFO]: [Sunakaze21: Set [Shift_1] for Sunakaze21 to 0]
+[15:04:50] [Server thread/INFO]: [@: Applied effect Levitation to Sunakaze21]
+[15:04:50] [Server thread/INFO]: [Sunakaze21: Set [Shift_1] for Sunakaze21 to 0]
+[15:04:50] [Server thread/INFO]: [@: Applied effect Levitation to Sunakaze21]
+[15:04:50] [Server thread/INFO]: [Sunakaze21: Set [Shift_1] for Sunakaze21 to 0]
+[15:04:50] [Server thread/INFO]: [@: Applied effect Levitation to Sunakaze21]
+[15:04:50] [Server thread/INFO]: [Sunakaze21: Set [Shift_1] for Sunakaze21 to 0]
+[15:04:51] [Server thread/INFO]: [@: Applied effect Levitation to Sunakaze21]
+[15:04:51] [Server thread/INFO]: [Sunakaze21: Set [Shift_1] for Sunakaze21 to 0]
+[15:04:51] [Server thread/INFO]: [@: Applied effect Levitation to Sunakaze21]
+[15:04:51] [Server thread/INFO]: [Sunakaze21: Set [Shift_1] for Sunakaze21 to 0]
+[15:04:51] [Server thread/INFO]: [@: Applied effect Levitation to Sunakaze21]
+[15:04:51] [Server thread/INFO]: [Sunakaze21: Set [Shift_1] for Sunakaze21 to 0]
+[15:04:51] [Server thread/INFO]: [@: Applied effect Levitation to Sunakaze21]
+[15:04:51] [Server thread/INFO]: [Sunakaze21: Set [Shift_1] for Sunakaze21 to 0]
+[15:04:51] [Server thread/INFO]: [@: Applied effect Levitation to Sunakaze21]
+[15:04:51] [Server thread/INFO]: [Sunakaze21: Set [Shift_1] for Sunakaze21 to 0]
+[15:04:51] [Server thread/INFO]: [@: Applied effect Levitation to Sunakaze21]
+[15:04:51] [Server thread/INFO]: [Sunakaze21: Set [Shift_1] for Sunakaze21 to 0]
+[15:04:51] [Server thread/INFO]: [@: Applied effect Levitation to Sunakaze21]
+[15:04:51] [Server thread/INFO]: [Sunakaze21: Set [Shift_1] for Sunakaze21 to 0]
+[15:04:51] [Server thread/INFO]: [@: Applied effect Levitation to Sunakaze21]
+[15:04:51] [Server thread/INFO]: [Sunakaze21: Set [Shift_1] for Sunakaze21 to 0]
+[15:04:51] [Server thread/INFO]: [@: Applied effect Levitation to Sunakaze21]
+[15:04:51] [Server thread/INFO]: [Sunakaze21: Set [Shift_1] for Sunakaze21 to 0]
+[15:04:51] [Server thread/INFO]: [@: Applied effect Levitation to Sunakaze21]
+[15:04:51] [Server thread/INFO]: [Sunakaze21: Set [Shift_1] for Sunakaze21 to 0]
+[15:04:51] [Server thread/INFO]: [@: Applied effect Levitation to Sunakaze21]
+[15:04:51] [Server thread/INFO]: [Sunakaze21: Set [Shift_1] for Sunakaze21 to 0]
+[15:04:51] [Server thread/INFO]: [@: Applied effect Levitation to Sunakaze21]
+[15:04:51] [Server thread/INFO]: [Sunakaze21: Set [Shift_1] for Sunakaze21 to 0]
+[15:04:51] [Server thread/INFO]: [@: Applied effect Levitation to Sunakaze21]
+[15:04:51] [Server thread/INFO]: [Sunakaze21: Set [Shift_1] for Sunakaze21 to 0]
+[15:04:51] [Server thread/INFO]: [@: Applied effect Levitation to Sunakaze21]
+[15:04:51] [Server thread/INFO]: [Sunakaze21: Set [Shift_1] for Sunakaze21 to 0]
+[15:04:51] [Server thread/INFO]: [@: Applied effect Levitation to Sunakaze21]
+[15:04:51] [Server thread/INFO]: [Sunakaze21: Set [Shift_1] for Sunakaze21 to 0]
+[15:04:51] [Server thread/INFO]: [@: Applied effect Levitation to Sunakaze21]
+[15:04:51] [Server thread/INFO]: [Sunakaze21: Set [Shift_1] for Sunakaze21 to 0]
+[15:04:51] [Server thread/INFO]: [@: Applied effect Levitation to Sunakaze21]
+[15:04:51] [Server thread/INFO]: [Sunakaze21: Set [Shift_1] for Sunakaze21 to 0]
+[15:04:51] [Server thread/INFO]: [@: Applied effect Levitation to Sunakaze21]
+[15:04:51] [Server thread/INFO]: [Sunakaze21: Set [Shift_1] for Sunakaze21 to 0]
+[15:04:51] [Server thread/INFO]: [@: Applied effect Levitation to Sunakaze21]
+[15:04:51] [Server thread/INFO]: [Sunakaze21: Set [Shift_1] for Sunakaze21 to 0]
+[15:04:51] [Server thread/INFO]: [@: Applied effect Levitation to Sunakaze21]
+[15:04:51] [Server thread/INFO]: [Sunakaze21: Set [Shift_1] for Sunakaze21 to 0]
+[15:04:52] [Server thread/INFO]: [@: Applied effect Levitation to Sunakaze21]
+[15:04:52] [Server thread/INFO]: [Sunakaze21: Set [Shift_1] for Sunakaze21 to 0]
+[15:04:52] [Server thread/INFO]: [@: Applied effect Levitation to Sunakaze21]
+[15:04:52] [Server thread/INFO]: [Sunakaze21: Set [Shift_1] for Sunakaze21 to 0]
+[15:04:52] [Server thread/INFO]: [@: Applied effect Levitation to Sunakaze21]
+[15:04:52] [Server thread/INFO]: [Sunakaze21: Set [Shift_1] for Sunakaze21 to 0]
+[15:04:52] [Server thread/INFO]: [@: Applied effect Levitation to Sunakaze21]
+[15:04:52] [Server thread/INFO]: [Sunakaze21: Set [Shift_1] for Sunakaze21 to 0]
+[15:05:06] [Server thread/INFO]: Sunakaze21 issued server command: /gamerule commandBlockOutput false
+[15:05:06] [Server thread/INFO]: [Sunakaze21: Gamerule commandBlockOutput is now set to: false]
+[15:07:29] [Server thread/INFO]: Sunakaze21 issued server command: /scoreboard objectives setdisplay sidebar Shift_1
+[15:07:29] [Server thread/INFO]: [Sunakaze21: Set display slot sidebar to show objective Shift_1]
+[15:16:55] [Server thread/INFO]: shigemiiii_ issued server command: /gamemode spectator
+[15:16:55] [Server thread/INFO]: [shigemiiii_: Set own game mode to Spectator Mode]
+[15:18:34] [Async Chat Thread - #3/INFO]: <shigemiiii_> t
+[15:18:46] [Server thread/INFO]: shigemiiii_ issued server command: /gamemode survival
+[15:18:46] [Server thread/INFO]: [shigemiiii_: Set own game mode to Survival Mode]
+[15:18:50] [Server thread/INFO]: shigemiiii_ issued server command: /gamemode creative
+[15:18:50] [Server thread/INFO]: [shigemiiii_: Set own game mode to Creative Mode]
+[15:20:13] [Server thread/INFO]: shigemiiii_ issued server command: /mvcreate MUU_V3survivalserver NORMAL
+[15:20:13] [Server thread/INFO]: shigemiiii_: Starting creation of world 'MUU_V3survivalserver'...
+[15:20:13] [Server thread/INFO]: [Multiverse-Core] Loading World & Settings - 'MUU_V3survivalserver' - Env: NORMAL - Type: NORMAL
+[15:20:17] [Server thread/INFO]: Preparing start region for dimension minecraft:muu_v3survivalserver
+[15:20:20] [Server thread/INFO]: Time elapsed: 2238 ms
+[15:20:20] [Server thread/INFO]: shigemiiii_: Complete!
+[15:20:35] [Server thread/INFO]: shigemiiii_ issued server command: /mvtp shigemiiii_ MUU_V3survivalserver
+[15:20:47] [Server thread/INFO]: shigemiiii_ issued server command: /gamemode creative
+[15:20:47] [Server thread/INFO]: [shigemiiii_: Set own game mode to Creative Mode]
+[15:22:16] [Server thread/INFO]: shigemiiii_ issued server command: /setworldspawn
+[15:22:16] [Server thread/INFO]: [shigemiiii_: Set the world spawn point to -272, 71, 38 [0.0]]
+[15:22:28] [Server thread/INFO]: shigemiiii_ issued server command: /mvtp shigemiiii_ loby
+[15:23:30] [Server thread/INFO]: shigemiiii_ issued server command: /mvtp shigemiiii_ Lobby
+[15:23:40] [Server thread/INFO]: shigemiiii_ issued server command: /gamemode creative
+[15:23:40] [Server thread/INFO]: [shigemiiii_: Set own game mode to Creative Mode]
+[15:23:41] [Server thread/INFO]: Sunakaze21 issued server command: /
+[15:23:55] [Server thread/INFO]: shigemiiii_ issued server command: /tp shigemiiii_ Sunakaze21
+[15:23:55] [Server thread/INFO]: [shigemiiii_: Teleported shigemiiii_ to Sunakaze21]
+[15:24:43] [Server thread/INFO]: shigemiiii_ issued server command: /tp shigemiiii_ Sunakaze21
+[15:24:43] [Server thread/INFO]: [shigemiiii_: Teleported shigemiiii_ to Sunakaze21]
+[15:25:24] [Server thread/INFO]: shigemiiii_ issued server command: /mvtp shigemiiii_ MUU_V3suvivalserver
+[15:25:44] [Server thread/INFO]: shigemiiii_ issued server command: /mvtp shigemiiii_ MUU_V3survivalserver
+[15:25:54] [Server thread/INFO]: shigemiiii_ issued server command: /gamemode creative
+[15:25:54] [Server thread/INFO]: [shigemiiii_: Set own game mode to Creative Mode]
+[15:26:21] [Server thread/INFO]: shigemiiii_ issued server command: /mvtp shigemiiii_ Lobby
+[15:26:36] [Server thread/INFO]: shigemiiii_ issued server command: /mvtp shigemiiii_ MUU_V3survivalserver
+[15:26:44] [Server thread/INFO]: shigemiiii_ issued server command: /gamemode creative
+[15:26:44] [Server thread/INFO]: [shigemiiii_: Set own game mode to Creative Mode]
+[15:26:56] [Server thread/INFO]: shigemiiii_ issued server command: /mvtp shigemiiii_ Lobbyu
+[15:27:13] [Server thread/INFO]: shigemiiii_ issued server command: /mvtp shigemiiii_ Lobby
+[15:27:29] [Server thread/INFO]: shigemiiii_ issued server command: /mvtp shigemiiii_ MUU_V3survivalserver
+[15:27:40] [Server thread/INFO]: shigemiiii_ issued server command: /gamemode spectator
+[15:27:40] [Server thread/INFO]: [shigemiiii_: Set own game mode to Spectator Mode]
+[15:27:48] [Server thread/INFO]: shigemiiii_ issued server command: /gamemode creative
+[15:27:48] [Server thread/INFO]: [shigemiiii_: Set own game mode to Creative Mode]
+[15:28:25] [Server thread/INFO]: shigemiiii_ issued server command: /mvtp setspawn
+[15:28:32] [Server thread/INFO]: shigemiiii_ issued server command: /mvsetspawn
+[15:28:46] [Server thread/INFO]: shigemiiii_ issued server command: /mvtp shigemiiii_ Lobby
+[15:29:01] [Server thread/INFO]: shigemiiii_ issued server command: /mvtp shigemiiii_ MUU_V3survivalserver
+[15:29:08] [Server thread/INFO]: shigemiiii_ issued server command: /gamemode creative
+[15:29:08] [Server thread/INFO]: [shigemiiii_: Set own game mode to Creative Mode]
+[15:31:16] [Server thread/INFO]: Sunakaze21 issued server command: /effect give @p minecraft:night_vision 10
+[15:31:16] [Server thread/INFO]: [Sunakaze21: Applied effect Night Vision to Sunakaze21]
+[15:31:22] [Server thread/INFO]: shigemiiii_ issued server command: /gamemode survival
+[15:31:22] [Server thread/INFO]: [shigemiiii_: Set own game mode to Survival Mode]
+[15:31:29] [Server thread/INFO]: shigemiiii_ issued server command: /gamemode creative
+[15:31:29] [Server thread/INFO]: [shigemiiii_: Set own game mode to Creative Mode]
+[15:31:47] [Server thread/INFO]: shigemiiii_ issued server command: /gamemode survival
+[15:31:47] [Server thread/INFO]: [shigemiiii_: Set own game mode to Survival Mode]
+[15:32:00] [Server thread/INFO]: Sunakaze21 issued server command: /effect give shigemiiii_ minecraft:regeneration 5 100
+[15:32:00] [Server thread/INFO]: [Sunakaze21: Applied effect Regeneration to shigemiiii_]
+[15:33:50] [Server thread/INFO]: shigemiiii_ was shot by Skeleton
+[15:33:50] [Folia Async Scheduler Thread #3/WARN]: java.lang.ClassNotFoundException: Could not find net.minecraft.server.EntityPlayer
+[15:33:50] [Folia Async Scheduler Thread #3/WARN]: 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.util.NMSUtil.fixBukkitClass(NMSUtil.java:122)
+[15:33:50] [Folia Async Scheduler Thread #3/WARN]: 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.util.NMSUtil.<clinit>(NMSUtil.java:61)
+[15:33:50] [Folia Async Scheduler Thread #3/WARN]: 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.DiscordSRV.getAvatarUrl(DiscordSRV.java:2025)
+[15:33:50] [Folia Async Scheduler Thread #3/WARN]: 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.listeners.PlayerDeathListener.runAsync(PlayerDeathListener.java:85)
+[15:33:50] [Folia Async Scheduler Thread #3/WARN]: 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.listeners.PlayerDeathListener.lambda$onPlayerDeath$0(PlayerDeathListener.java:58)
+[15:33:50] [Folia Async Scheduler Thread #3/WARN]: 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.util.SchedulerUtil.lambda$runTaskAsynchronously$1(SchedulerUtil.java:95)
+[15:33:50] [Folia Async Scheduler Thread #3/WARN]: 	at io.papermc.paper.threadedregions.scheduler.FoliaAsyncScheduler$AsyncScheduledTask.run(FoliaAsyncScheduler.java:217)
+[15:33:50] [Folia Async Scheduler Thread #3/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+[15:33:50] [Folia Async Scheduler Thread #3/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+[15:33:50] [Folia Async Scheduler Thread #3/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1570)
+[15:34:07] [Server thread/INFO]: shigemiiii_ has made the advancement [Monster Hunter]
+[15:34:25] [Server thread/INFO]: shigemiiii_ was shot by Skeleton
+[15:35:26] [Server thread/INFO]: Sunakaze21 lost connection: Disconnected
+[15:35:26] [Server thread/INFO]: Sunakaze21 left the game
+[15:43:01] [Server thread/INFO]: shigemiiii_ lost connection: Disconnected
+[15:43:01] [Server thread/INFO]: shigemiiii_ left the game
+[15:43:54] [User Authenticator #2/INFO]: UUID of player shigemiiii_ is 50e06b95-5310-4bd2-bb6f-5b34510607b2
+[15:43:55] [Server thread/INFO]: shigemiiii_ joined the game
+[15:43:55] [Server thread/INFO]: shigemiiii_[/192.168.0.1:59579] logged in with entity id 12632 at ([MUU_V3survivalserver]-459.30000001192093, 70.0, 106.06466920032854)
+[15:44:45] [User Authenticator #2/INFO]: UUID of player Sunakaze21 is 940a0fe0-62c7-4df3-a440-93d9b970f1d1
+[15:44:46] [Server thread/INFO]: Sunakaze21 joined the game
+[15:44:46] [Server thread/INFO]: Sunakaze21[/106.173.158.109:53621] logged in with entity id 13472 at ([Lobby]9869.745132046097, 104.40779718977033, 9722.360418524391)
+[15:44:53] [Server thread/INFO]: Sunakaze21 issued server command: /tp @p
+[15:44:53] [Server thread/INFO]: [Sunakaze21: Teleported Sunakaze21 to Sunakaze21]
+[15:44:57] [Server thread/INFO]: Sunakaze21 issued server command: /tp @p shigemiiii_
+[15:44:57] [Server thread/INFO]: [Sunakaze21: Teleported Sunakaze21 to shigemiiii_]
+[15:45:11] [Server thread/INFO]: shigemiiii_ issued server command: /reload confirm
+[15:45:11] [Server thread/INFO]: shigemiiii_: Please note that this command is not supported and may cause issues when using some plugins.
+[15:45:11] [Server thread/INFO]: shigemiiii_: If you encounter any issues please use the /stop command to restart your server.
+[15:45:11] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[15:45:11] [Server thread/INFO]: Using 4 threads for Netty based IO
+[15:45:11] [Server thread/INFO]: [Multiverse-Portals] Disabling Multiverse-Portals v4.2.3
+[15:45:11] [Server thread/INFO]: [DiscordSRV] Disabling DiscordSRV v1.27.0
+[15:45:11] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] [JDA] There was an I/O error while executing a REST request: interrupted
+[15:45:11] [DiscordSRV - JDA Callback 0/ERROR]: [DiscordSRV] DiscordSRV encountered an unknown Discord error: -1: java.io.InterruptedIOException
+[15:45:11] [DiscordSRV - Shutdown/INFO]: [DiscordSRV] 209ミリ秒でシャットダウンしました
+[15:45:11] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.3.1+6763-2e55f4f
+[15:45:11] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[15:45:11] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.128
+[15:45:11] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[15:45:11] [Server thread/INFO]: [LuckPerms] Closing storage...
+[15:45:11] [Server thread/INFO]: [LuckPerms] Goodbye!
+[15:45:11] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.3.12
+[15:45:12] [Server thread/INFO]: Loaded 1175 recipes
+[15:45:12] [Server thread/INFO]: Loaded 1276 advancements
+[15:45:13] [Server thread/INFO]: [Multiverse-Core] Loading server plugin Multiverse-Core v4.3.12
+[15:45:13] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.128
+[15:45:13] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.1+6763-2e55f4f
+[15:45:14] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@2ccbaab1]
+[15:45:14] [Server thread/INFO]: [DiscordSRV] Loading server plugin DiscordSRV v1.27.0
+[15:45:14] [Server thread/INFO]: [Multiverse-Portals] Loading server plugin Multiverse-Portals v4.2.3
+[15:45:14] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[15:45:14] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.128
+[15:45:14] [Server thread/INFO]:         __    
+[15:45:14] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.128
+[15:45:14] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[15:45:14] [Server thread/INFO]: 
+[15:45:14] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[15:45:14] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[15:45:14] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[15:45:14] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[15:45:14] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 487ms)
+[15:45:14] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.1+6763-2e55f4f
+[15:45:14] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[15:45:14] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[15:45:14] [Server thread/WARN]: [WorldEdit] Server reload detected. This may cause various issues with WorldEdit and dependent plugins.
+[15:45:15] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_20_R4.PaperweightAdapter as the Bukkit adapter
+[15:45:16] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.12
+[15:45:16] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.12" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
+[15:45:16] [Server thread/INFO]: [Multiverse-Core] §aWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
+[15:45:16] [Server thread/INFO]: [Multiverse-Core] 5 - World(s) loaded.
+[15:45:16] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
+[15:45:16] [Server thread/INFO]: [Multiverse-Core] Version 4.3.12 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
+[15:45:16] [Server thread/INFO]: [DiscordSRV] Enabling DiscordSRV v1.27.0
+[15:45:16] [Server thread/INFO]: [Multiverse-Portals] Enabling Multiverse-Portals v4.2.3
+[15:45:16] [Server thread/INFO]: [Multiverse-Portals] 0 - Portals(s) loaded
+[15:45:16] [Server thread/INFO]: [Multiverse-Portals] Found WorldEdit. Using it for selections.
+[15:45:16] [Server thread/INFO]: [Multiverse-Portals 4.2.3]  Enabled - By Rigby and fernferret
+[15:45:16] [Server thread/INFO]: shigemiiii_: Reload complete.
+[15:45:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5412ms or 108 ticks behind
+[15:45:16] [Server thread/INFO]: Timings Reset
+[15:45:17] [pool-39-thread-1/INFO]: [DiscordSRV] DiscordSRV is up-to-date. (6405e850eea61a4b9bf4f0d0cbb80fe20b3cfb90)
+[15:45:17] [DiscordSRV - Initialization/INFO]: [DiscordSRV] [JDA] Login Successful!
+[15:45:18] [Server thread/INFO]: Sunakaze21 issued server command: /gamemode creative
+[15:45:18] [Server thread/INFO]: [Sunakaze21: Set own game mode to Creative Mode]
+[15:45:18] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Connected to WebSocket
+[15:45:19] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Finished Loading!
+[15:45:19] [DiscordSRV - Initialization/INFO]: [DiscordSRV] 見つかったサーバー G:まふぃんうまうま(1030670941363122286)
+[15:45:19] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:rule(1030671352719491142)
+[15:45:19] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:op-ch(1238685323429548122)
+[15:45:19] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:サーバー参加同意書📄(1241267725754695760)
+[15:45:19] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:github(1239934088844939315)
+[15:45:19] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:server-log(1238687629852151891)
+[15:45:19] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:test-channel(1032287685198483478)
+[15:45:19] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:welcom(1030670941811908639)
+[15:45:19] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:【必見】鯖について(1208671061206507541)
+[15:45:19] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:カスタムロール(1208670963214848051)
+[15:45:19] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:最新情報(1212502783006212157)
+[15:45:19] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:お知らせ(1208661437204135957)
+[15:45:19] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:自慢・みてほしい(1030671149782290472)
+[15:45:19] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:【旧募集】招集(1030671128265494558)
+[15:45:19] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:【旧雑談】交流場(1030671104487993484)
+[15:45:19] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:【鯖メン限】作品配布(1208662514431172668)
+[15:45:19] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:no-mic(1033394501097627708)
+[15:45:19] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:戒め(1198667006392684596)
+[15:45:19] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:ぷれみあ～～(1217113459234181211)
+[15:45:19] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:5-digit-faceoff(1231623690840445058)
+[15:45:19] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:ネタクリップ-健全(1218632623291629588)
+[15:45:19] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:ネタクリップ-注意(1218632663817261066)
+[15:45:19] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:ぼっとつかいかた(1208668504979673118)
+[15:45:19] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:bot(1032289674204557362)
+[15:45:19] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:おしらせ【削除予定】(1040137950345834546)
+[15:45:19] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:map-pool(1041399685904076881)
+[15:45:19] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:旧roll(1030672989538230323)
+[15:45:19] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:aho(1186989099496771594)
+[15:45:19] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:bot-便利機能(1032995429408849941)
+[15:45:19] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:┏-vc-channel-update(1124228019788193852)
+[15:45:19] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:muu-server-log(1135783481037836340)
+[15:45:19] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:admin-section(1125458644914425917)
+[15:45:19] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:🌸server-announce(1087202120022892544)
+[15:45:19] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:🧁version-log(1087202182195060787)
+[15:45:19] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:🐹chat(1087202723763593267)
+[15:45:19] [DiscordSRV - Initialization/INFO]: [DiscordSRV] コンソールフォワーディングがチャンネルに割り当てられました TC:server-log(1238687629852151891)
+[15:45:19] [DiscordSRV - Initialization/INFO]: [DiscordSRV] LuckPerms の接続を有効にしました
+[15:45:19] [DiscordSRV - JDA Callback 0/INFO]: [DiscordSRV] Cleared all pre-existing slash commands in 1/1 guilds (0 cancelled)
+[15:45:23] [Server thread/INFO]: shigemiiii_ issued server command: /gamemode creative
+[15:45:23] [Server thread/INFO]: [shigemiiii_: Set own game mode to Creative Mode]
+[15:45:25] [Server thread/INFO]: Sunakaze21 issued server command: /give @p minecraft:oak_log
+[15:45:25] [Server thread/INFO]: [Sunakaze21: Gave 1 [Oak Log] to Sunakaze21]
+[15:45:28] [Server thread/INFO]: Sunakaze21 issued server command: /give @p minecraft:oak_log 90
+[15:45:28] [Server thread/INFO]: [Sunakaze21: Gave 90 [Oak Log] to Sunakaze21]
+[15:45:39] [Server thread/INFO]: Sunakaze21 issued server command: /give @p minecraft:crafting_table
+[15:45:39] [Server thread/INFO]: [Sunakaze21: Gave 1 [Crafting Table] to Sunakaze21]
