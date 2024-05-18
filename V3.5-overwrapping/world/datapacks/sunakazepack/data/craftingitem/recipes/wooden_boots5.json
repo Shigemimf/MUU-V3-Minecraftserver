@@ -1,0 +1,68 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "group": "g_wooden_boots",
+    "pattern": [
+      "# #",
+      "# #"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:acacia_log"
+      }
+    },
+    "result": {
+      "id": "minecraft:leather_boots",
+      "count": 1,
+      "components": {
+        "minecraft:custom_name": "木のブーツ",
+        "minecraft:max_damage": 32,
+        "minecraft:custom_model_data": 1,
+        "minecraft:attribute_modifiers": {
+          "modifiers": [
+            {
+              "type": "minecraft:generic.knockback_resistance",
+              "uuid": [
+                0,
+                0,
+                3,
+                1
+              ],
+              "name": "A",
+              "amount": 0.1,
+              "operation": "add_value",
+              "slot": "feet"
+            },
+            {
+              "type": "minecraft:generic.movement_speed",
+              "uuid": [
+                0,
+                0,
+                3,
+                2
+              ],
+              "name": "AA",
+              "amount": -0.004,
+              "operation": "add_value",
+              "slot": "feet"
+            },
+            {
+              "type": "minecraft:generic.armor",
+              "uuid": [
+                0,
+                0,
+                3,
+                3
+              ],
+              "name": "AAA",
+              "amount": 0.25,
+              "operation": "add_value",
+              "slot": "feet"
+            }
+          ],
+          "show_in_tooltip": true
+        }
+      }
+    }
+  }
+  

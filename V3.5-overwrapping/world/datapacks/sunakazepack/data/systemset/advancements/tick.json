@@ -1,0 +1,10 @@
+{
+  "criteria": {
+    "alltick": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "rewards": {
+    "function": "systemset:tickdo"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "type_specific": {
+      "type": "minecraft:player"
+    },
+    "flags": {
+      "is_on_fire": true
+    },
+    "equipment": {
+      "head": {
+        "items": "minecraft:leather_helmet",
+        "components": {
+          "minecraft:custom_model_data": 1
+        }
+      }
+    }
+  }
+}

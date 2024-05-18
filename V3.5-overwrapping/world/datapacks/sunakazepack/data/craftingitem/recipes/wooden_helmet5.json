@@ -1,0 +1,68 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "group": "g_wooden_helmet",
+    "pattern": [
+      "###",
+      "# #"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:acacia_log"
+      }
+    },
+    "result": {
+      "id": "minecraft:leather_helmet",
+      "count": 1,
+      "components": {
+        "minecraft:custom_name": "木のヘルメット",
+        "minecraft:max_damage": 27,
+        "minecraft:custom_model_data": 1,
+        "minecraft:attribute_modifiers": {
+          "modifiers": [
+            {
+              "type": "minecraft:generic.knockback_resistance",
+              "uuid": [
+                0,
+                0,
+                0,
+                1
+              ],
+              "name": "A",
+              "amount": 0.1,
+              "operation": "add_value",
+              "slot": "head"
+            },
+            {
+              "type": "minecraft:generic.movement_speed",
+              "uuid": [
+                0,
+                0,
+                0,
+                2
+              ],
+              "name": "AA",
+              "amount": -0.004,
+              "operation": "add_value",
+              "slot": "head"
+            },
+            {
+                "type": "minecraft:generic.armor",
+                "uuid": [
+                  0,
+                  0,
+                  0,
+                  3
+                ],
+                "name": "AAA",
+                "amount": 0.5,
+                "operation": "add_value",
+                "slot": "head"
+              }
+          ],
+          "show_in_tooltip": true
+        }
+      }
+    }
+  }
+  

@@ -1,0 +1,2 @@
+execute as @e[type=minecraft:armor_stand,tag=shift_jump1] at @s if entity @a[scores={Shift_1=1..},distance=0..2.5] run effect give @a[scores={Shift_1=1..},distance=0..2.5] minecraft:levitation 1 11 true
+execute as @a[scores={Shift_1=1..}] run scoreboard players set @s Shift_1 0
