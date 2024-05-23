@@ -2,7 +2,7 @@ worlds:
   world_the_end:
     ==: MVWorld
     hidden: 'false'
-    alias: ''
+    alias: world_the_end
     color: WHITE
     style: NORMAL
     pvp: 'true'
@@ -49,7 +49,7 @@ worlds:
   world:
     ==: MVWorld
     hidden: 'false'
-    alias: ''
+    alias: world
     color: WHITE
     style: NORMAL
     pvp: 'true'
@@ -96,7 +96,7 @@ worlds:
   Lobby:
     ==: MVWorld
     hidden: 'false'
-    alias: ''
+    alias: Lobby
     color: WHITE
     style: NORMAL
     pvp: 'true'
@@ -127,11 +127,11 @@ worlds:
     keepSpawnInMemory: 'true'
     spawnLocation:
       ==: MVSpawnLocation
-      x: -64.0
-      y: 98.0
-      z: -48.0
-      pitch: 0.0
-      yaw: 0.0
+      x: 9830.812658415383
+      y: 106.0
+      z: 9723.645585593282
+      pitch: 19.393745
+      yaw: -87.64166
     autoLoad: 'true'
     bedRespawn: 'true'
     worldBlacklist: []
@@ -143,7 +143,7 @@ worlds:
   world_nether:
     ==: MVWorld
     hidden: 'false'
-    alias: ''
+    alias: world_nether
     color: WHITE
     style: NORMAL
     pvp: 'true'
@@ -190,7 +190,7 @@ worlds:
   MUU_V3survivalserver:
     ==: MVWorld
     hidden: 'false'
-    alias: ''
+    alias: MUU_V3survivalserver
     color: WHITE
     style: NORMAL
     pvp: 'true'
