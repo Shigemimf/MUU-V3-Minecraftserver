@@ -10,3 +10,10 @@ groups:
     - world_nether
     shares:
     - all
+  MUU_V3survival:
+    worlds:
+    - muu_v3survivalserver_end
+    - muu_v3survivalserver
+    - muu_v3survivalserver_nether
+    shares:
+    - all
