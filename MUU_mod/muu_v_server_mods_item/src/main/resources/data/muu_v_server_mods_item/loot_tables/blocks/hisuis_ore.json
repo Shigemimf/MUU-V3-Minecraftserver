@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "muu_v_server_mods_item:blocks/hisuis_ore",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "muu_v_server_mods_item:hisuis"
+        }
+      ]
+    }
+  ]
+}

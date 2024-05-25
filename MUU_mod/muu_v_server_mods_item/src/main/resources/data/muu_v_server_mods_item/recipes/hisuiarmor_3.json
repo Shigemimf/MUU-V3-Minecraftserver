@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "hisui",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "a a",
+    "a a"
+  ],
+  "key": {
+    "a": {
+      "item": "muu_v_server_mods_item:hisui"
+    }
+  },
+  "result": {
+    "item": "muu_v_server_mods_item:hisuihelmet_leggings",
+    "count": 1
+  }
+}

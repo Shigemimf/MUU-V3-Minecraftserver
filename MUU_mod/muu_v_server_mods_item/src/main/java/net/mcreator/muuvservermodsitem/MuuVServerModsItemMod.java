@@ -17,6 +17,10 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.muuvservermodsitem.init.MuuVServerModsItemModTabs;
+import net.mcreator.muuvservermodsitem.init.MuuVServerModsItemModItems;
+import net.mcreator.muuvservermodsitem.init.MuuVServerModsItemModBlocks;
+
 import java.util.function.Supplier;
 import java.util.function.Function;
 import java.util.function.BiConsumer;
@@ -36,6 +40,12 @@ public class MuuVServerModsItemMod {
 		// End of user code block mod constructor
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+
+		MuuVServerModsItemModBlocks.REGISTRY.register(bus);
+
+		MuuVServerModsItemModItems.REGISTRY.register(bus);
+
+		MuuVServerModsItemModTabs.REGISTRY.register(bus);
 
 		// Start of user code block mod init
 		// End of user code block mod init

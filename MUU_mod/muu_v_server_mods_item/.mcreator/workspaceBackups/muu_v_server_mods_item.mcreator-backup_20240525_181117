@@ -1,0 +1,74 @@
+{
+  "mod_elements": [
+    {
+      "name": "Hisui",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hisui",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/muu_v_server_mods_item/models/item/hisui.json",
+          "src/main/java/net/mcreator/muuvservermodsitem/item/HisuiItem.java"
+        ]
+      }
+    },
+    {
+      "name": "HisuiKuangShi",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hisui_kuang_shi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/muuvservermodsitem/block/HisuiKuangShiBlock.java",
+          "src/main/resources/assets/muu_v_server_mods_item/blockstates/hisui_kuang_shi.json",
+          "src/main/resources/data/muu_v_server_mods_item/worldgen/placed_feature/hisui_kuang_shi.json",
+          "src/main/resources/data/muu_v_server_mods_item/forge/biome_modifier/hisui_kuang_shi_biome_modifier.json",
+          "src/main/resources/assets/muu_v_server_mods_item/models/item/hisui_kuang_shi.json",
+          "src/main/resources/data/muu_v_server_mods_item/loot_tables/blocks/hisui_kuang_shi.json",
+          "src/main/resources/data/muu_v_server_mods_item/worldgen/configured_feature/hisui_kuang_shi.json",
+          "src/main/resources/assets/muu_v_server_mods_item/models/block/hisui_kuang_shi.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "BLOCKS:minecraft:needs_iron_tool": [
+      "~CUSTOM:HisuiKuangShi"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:HisuiKuangShi"
+    ]
+  },
+  "language_map": {
+    "en_us": {
+      "item.muu_v_server_mods_item.hisui": "ヒスイ",
+      "block.muu_v_server_mods_item.hisui_kuang_shi": "ヒスイ鉱石"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "muu_v_server_mods_item",
+    "modName": "Muu_V3_server_mods_item",
+    "version": "1.0.0",
+    "author": "hiro2, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "modElementsPackage": "net.mcreator.muuvservermodsitem"
+  },
+  "mcreatorVersion": 202400117319
+}

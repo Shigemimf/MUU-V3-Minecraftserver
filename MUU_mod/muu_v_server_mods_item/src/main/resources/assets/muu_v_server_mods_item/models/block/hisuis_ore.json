@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "muu_v_server_mods_item:block/hisuis_ore",
+    "particle": "muu_v_server_mods_item:block/hisuis_ore"
+  },
+  "render_type": "solid"
+}

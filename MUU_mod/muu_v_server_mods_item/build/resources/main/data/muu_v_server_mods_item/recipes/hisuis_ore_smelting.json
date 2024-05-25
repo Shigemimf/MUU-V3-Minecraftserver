@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "experience": 0.7,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "muu_v_server_mods_item:hisuis_ore"
+  },
+  "result": "muu_v_server_mods_item:hisuis"
+}

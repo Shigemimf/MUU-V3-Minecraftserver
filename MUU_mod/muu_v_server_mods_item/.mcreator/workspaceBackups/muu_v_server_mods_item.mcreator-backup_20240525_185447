@@ -1,0 +1,436 @@
+{
+  "mod_elements": [
+    {
+      "name": "Hisui",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hisui",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/muu_v_server_mods_item/models/item/hisui.json",
+          "src/main/java/net/mcreator/muuvservermodsitem/item/HisuiItem.java"
+        ]
+      }
+    },
+    {
+      "name": "HisuiKuangShi",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hisui_kuang_shi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/muuvservermodsitem/block/HisuiKuangShiBlock.java",
+          "src/main/resources/assets/muu_v_server_mods_item/blockstates/hisui_kuang_shi.json",
+          "src/main/resources/data/muu_v_server_mods_item/worldgen/placed_feature/hisui_kuang_shi.json",
+          "src/main/resources/data/muu_v_server_mods_item/forge/biome_modifier/hisui_kuang_shi_biome_modifier.json",
+          "src/main/resources/assets/muu_v_server_mods_item/models/item/hisui_kuang_shi.json",
+          "src/main/resources/data/muu_v_server_mods_item/loot_tables/blocks/hisui_kuang_shi.json",
+          "src/main/resources/data/muu_v_server_mods_item/worldgen/configured_feature/hisui_kuang_shi.json",
+          "src/main/resources/assets/muu_v_server_mods_item/models/block/hisui_kuang_shi.json"
+        ]
+      }
+    },
+    {
+      "name": "Hisuihelmet",
+      "type": "armor",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hisuihelmet",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/muu_v_server_mods_item/models/item/hisuihelmet_chestplate.json",
+          "src/main/java/net/mcreator/muuvservermodsitem/item/HisuihelmetItem.java",
+          "src/main/resources/assets/muu_v_server_mods_item/models/item/hisuihelmet_leggings.json",
+          "src/main/resources/assets/muu_v_server_mods_item/models/item/hisuihelmet_helmet.json",
+          "src/main/resources/assets/muu_v_server_mods_item/models/item/hisuihelmet_boots.json"
+        ]
+      }
+    },
+    {
+      "name": "Hisuiarmor1",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hisuiarmor_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/muu_v_server_mods_item/recipes/hisuiarmor_1.json"
+        ]
+      }
+    },
+    {
+      "name": "Hisuiarmor2",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hisuiarmor_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/muu_v_server_mods_item/recipes/hisuiarmor_2.json"
+        ]
+      }
+    },
+    {
+      "name": "Hisuiarmor3",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hisuiarmor_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/muu_v_server_mods_item/recipes/hisuiarmor_3.json"
+        ]
+      }
+    },
+    {
+      "name": "Hisuiarmor4",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hisuiarmor_4",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/muu_v_server_mods_item/recipes/hisuiarmor_4.json"
+        ]
+      }
+    },
+    {
+      "name": "Hisuis",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hisuis",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/muuvservermodsitem/item/HisuisItem.java",
+          "src/main/resources/assets/muu_v_server_mods_item/models/item/hisuis.json"
+        ]
+      }
+    },
+    {
+      "name": "HisuisOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hisuis_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/muu_v_server_mods_item/forge/biome_modifier/hisuis_ore_biome_modifier.json",
+          "src/main/resources/data/muu_v_server_mods_item/worldgen/configured_feature/hisuis_ore.json",
+          "src/main/resources/data/muu_v_server_mods_item/worldgen/placed_feature/hisuis_ore.json",
+          "src/main/resources/assets/muu_v_server_mods_item/blockstates/hisuis_ore.json",
+          "src/main/resources/data/muu_v_server_mods_item/loot_tables/blocks/hisuis_ore.json",
+          "src/main/java/net/mcreator/muuvservermodsitem/block/HisuisOreBlock.java",
+          "src/main/resources/assets/muu_v_server_mods_item/models/item/hisuis_ore.json",
+          "src/main/resources/assets/muu_v_server_mods_item/models/block/hisuis_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "HisuisBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hisuis_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/muu_v_server_mods_item/models/block/hisuis_block.json",
+          "src/main/java/net/mcreator/muuvservermodsitem/block/HisuisBlockBlock.java",
+          "src/main/resources/data/muu_v_server_mods_item/loot_tables/blocks/hisuis_block.json",
+          "src/main/resources/assets/muu_v_server_mods_item/models/item/hisuis_block.json",
+          "src/main/resources/assets/muu_v_server_mods_item/blockstates/hisuis_block.json"
+        ]
+      }
+    },
+    {
+      "name": "HisuisOreBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hisuis_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/muu_v_server_mods_item/recipes/hisuis_ore_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "HisuisBlockOreRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hisuis_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/muu_v_server_mods_item/recipes/hisuis_block_ore_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "HisuisOreSmelting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hisuis_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/muu_v_server_mods_item/recipes/hisuis_ore_smelting.json"
+        ]
+      }
+    },
+    {
+      "name": "HisuisPickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hisuis_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/muu_v_server_mods_item/models/item/hisuis_pickaxe.json",
+          "src/main/java/net/mcreator/muuvservermodsitem/item/HisuisPickaxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "HisuisAxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hisuis_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/muu_v_server_mods_item/models/item/hisuis_axe.json",
+          "src/main/java/net/mcreator/muuvservermodsitem/item/HisuisAxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "HisuisSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hisuis_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/muuvservermodsitem/item/HisuisSwordItem.java",
+          "src/main/resources/assets/muu_v_server_mods_item/models/item/hisuis_sword.json"
+        ]
+      }
+    },
+    {
+      "name": "HisuisShovel",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hisuis_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/muuvservermodsitem/item/HisuisShovelItem.java",
+          "src/main/resources/assets/muu_v_server_mods_item/models/item/hisuis_shovel.json"
+        ]
+      }
+    },
+    {
+      "name": "HisuisHoe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hisuis_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/muu_v_server_mods_item/models/item/hisuis_hoe.json",
+          "src/main/java/net/mcreator/muuvservermodsitem/item/HisuisHoeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "HisuisPickaxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hisuis_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/muu_v_server_mods_item/recipes/hisuis_pickaxe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "HisuisAxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hisuis_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/muu_v_server_mods_item/recipes/hisuis_axe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "HisuisSwordRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hisuis_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/muu_v_server_mods_item/recipes/hisuis_sword_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "HisuisShovelRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hisuis_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/muu_v_server_mods_item/recipes/hisuis_shovel_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "HisuisHoeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hisuis_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/muu_v_server_mods_item/recipes/hisuis_hoe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "HisuisArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hisuis_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/muu_v_server_mods_item/models/item/hisuis_armor_helmet.json",
+          "src/main/java/net/mcreator/muuvservermodsitem/item/HisuisArmorItem.java",
+          "src/main/resources/assets/muu_v_server_mods_item/models/item/hisuis_armor_boots.json",
+          "src/main/resources/assets/muu_v_server_mods_item/models/item/hisuis_armor_chestplate.json",
+          "src/main/resources/assets/muu_v_server_mods_item/models/item/hisuis_armor_leggings.json"
+        ]
+      }
+    },
+    {
+      "name": "HisuisArmorHelmetRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hisuis_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/muu_v_server_mods_item/recipes/hisuis_armor_helmet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "HisuisArmorChestplateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hisuis_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/muu_v_server_mods_item/recipes/hisuis_armor_chestplate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "HisuisArmorLeggingsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hisuis_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/muu_v_server_mods_item/recipes/hisuis_armor_leggings_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "HisuisArmorBootsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hisuis_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/muu_v_server_mods_item/recipes/hisuis_armor_boots_recipe.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "BLOCKS:minecraft:needs_iron_tool": [
+      "~CUSTOM:HisuisBlock",
+      "~CUSTOM:HisuisOre",
+      "~CUSTOM:HisuiKuangShi"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:HisuisBlock",
+      "~CUSTOM:HisuisOre",
+      "~CUSTOM:HisuiKuangShi"
+    ]
+  },
+  "language_map": {
+    "en_us": {
+      "block.muu_v_server_mods_item.hisuis_ore": "Hisuis Ore",
+      "item.muu_v_server_mods_item.hisui": "ヒスイ",
+      "item.muu_v_server_mods_item.hisuihelmet_helmet": "ヒスイのヘルメット",
+      "item.muu_v_server_mods_item.hisuis_sword": "Hisuis Sword",
+      "item.muu_v_server_mods_item.hisuis_hoe": "Hisuis Hoe",
+      "block.muu_v_server_mods_item.hisui_kuang_shi": "ヒスイ鉱石",
+      "item.muu_v_server_mods_item.hisuis_shovel": "Hisuis Shovel",
+      "item.muu_v_server_mods_item.hisuihelmet_chestplate": "ヒスイのチェストプレート",
+      "block.muu_v_server_mods_item.hisuis_block": "Block of Hisuis",
+      "item.muu_v_server_mods_item.hisuis_armor_leggings": "Hisuis Leggings",
+      "item.muu_v_server_mods_item.hisuis_axe": "Hisuis Axe",
+      "item.muu_v_server_mods_item.hisuis_armor_boots": "Hisuis Boots",
+      "item.muu_v_server_mods_item.hisuihelmet_leggings": "ヒスイのレギンス",
+      "item.muu_v_server_mods_item.hisuis_pickaxe": "Hisuis Pickaxe",
+      "item.muu_v_server_mods_item.hisuis": "Hisuis",
+      "item.muu_v_server_mods_item.hisuis_armor_helmet": "Hisuis Helmet",
+      "item.muu_v_server_mods_item.hisuihelmet_boots": "ヒスイのブーツ",
+      "item.muu_v_server_mods_item.hisuis_armor_chestplate": "Hisuis Chestplate"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "muu_v_server_mods_item",
+    "modName": "Muu_V3_server_mods_item",
+    "version": "1.0.0",
+    "author": "hiro2, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "modElementsPackage": "net.mcreator.muuvservermodsitem"
+  },
+  "mcreatorVersion": 202400117319
+}

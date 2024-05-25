@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "muu_v_server_mods_item:item/hisuis_body"
+  }
+}

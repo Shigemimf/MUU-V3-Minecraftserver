@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "muu_v_server_mods_item:hisuis"
+    }
+  },
+  "result": {
+    "item": "muu_v_server_mods_item:hisuis_block",
+    "count": 1
+  }
+}

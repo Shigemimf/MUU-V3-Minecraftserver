@@ -1,1 +1,19 @@
-{}
+{
+  "block.muu_v_server_mods_item.hisuis_ore": "Hisuis Ore",
+  "item.muu_v_server_mods_item.hisui": "ヒスイ",
+  "item.muu_v_server_mods_item.hisuihelmet_helmet": "ヒスイのヘルメット",
+  "item.muu_v_server_mods_item.hisuis_sword": "Hisuis Sword",
+  "item.muu_v_server_mods_item.hisuis_hoe": "Hisuis Hoe",
+  "item.muu_v_server_mods_item.hisuis_shovel": "Hisuis Shovel",
+  "item.muu_v_server_mods_item.hisuihelmet_chestplate": "ヒスイのチェストプレート",
+  "block.muu_v_server_mods_item.hisuis_block": "Block of Hisuis",
+  "item.muu_v_server_mods_item.hisuis_armor_leggings": "Hisuis Leggings",
+  "item.muu_v_server_mods_item.hisuis_axe": "Hisuis Axe",
+  "item.muu_v_server_mods_item.hisuis_armor_boots": "Hisuis Boots",
+  "item.muu_v_server_mods_item.hisuihelmet_leggings": "ヒスイのレギンス",
+  "item.muu_v_server_mods_item.hisuis_pickaxe": "Hisuis Pickaxe",
+  "item.muu_v_server_mods_item.hisuis": "Hisuis",
+  "item.muu_v_server_mods_item.hisuis_armor_helmet": "Hisuis Helmet",
+  "item.muu_v_server_mods_item.hisuihelmet_boots": "ヒスイのブーツ",
+  "item.muu_v_server_mods_item.hisuis_armor_chestplate": "Hisuis Chestplate"
+}
